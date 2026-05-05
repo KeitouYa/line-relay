@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+
+# Environment
+.env
+
+# Docker
+postgres_data/
+minio_data/
+
+# Project planning (not needed for deployment)
+specs/
+MVP1_Plan.md
+Project_Idea.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
