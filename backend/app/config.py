@@ -17,6 +17,7 @@ class Settings(BaseSettings):
     freq_limit_seconds: int = 30
     deepseek_api_key: str = ""
     llm_provider: str = "deepseek-flash"  # deepseek-flash / deepseek-pro / claude
+    admin_token: str = ""
 
     class Config:
         env_file = ".env"

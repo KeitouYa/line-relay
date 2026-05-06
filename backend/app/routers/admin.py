@@ -4,13 +4,10 @@ from app.config import settings
 
 router = APIRouter()
 
-ADMIN_TOKEN = "line-relay-reset-2026"
-
-
 @router.post("/reset-limits")
 def reset_limits(x_admin_token: str = Header(..., alias="X-Admin-Token")):
     """清空所有限流计数器 (Redis keys: global_relay_count / ip_relay_count / ip_freq)"""
-    if x_admin_token != ADMIN_TOKEN:
+    if not settings.admin_token or x_admin_token != settings.admin_token:
         raise HTTPException(status_code=403, detail="Forbidden")
 
     r = Redis.from_url(settings.redis_url)
