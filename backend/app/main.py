@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 from app.limiter import limiter
-from app.routers import health, relay, quotes
+from app.routers import health, relay, quotes, admin
 
 app = FastAPI(
     title="Line Relay API",
@@ -30,3 +30,4 @@ app.add_middleware(
 app.include_router(health.router, tags=["health"])
 app.include_router(relay.router, prefix="/api/relay", tags=["relay"])
 app.include_router(quotes.router, prefix="/api/quotes", tags=["quotes"])
+app.include_router(admin.router, prefix="/admin", tags=["admin"])
