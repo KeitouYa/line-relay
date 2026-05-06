@@ -1,8 +1,11 @@
 from fastapi import APIRouter, Header, HTTPException
 from redis import Redis
+from sqlalchemy import text
+from app.database import engine, Base
 from app.config import settings
 
 router = APIRouter()
+
 
 @router.post("/reset-limits")
 def reset_limits(x_admin_token: str = Header(..., alias="X-Admin-Token")):
@@ -22,3 +25,18 @@ def reset_limits(x_admin_token: str = Header(..., alias="X-Admin-Token")):
                 break
 
     return {"status": "ok", "deleted_keys": deleted}
+
+
+@router.post("/setup-db")
+def setup_db(x_admin_token: str = Header(..., alias="X-Admin-Token")):
+    """一键安装 pgvector 扩展 + 建表（手动调一次，永久生效）"""
+    if not settings.admin_token or x_admin_token != settings.admin_token:
+        raise HTTPException(status_code=403, detail="Forbidden")
+
+    with engine.connect() as conn:
+        conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+        conn.commit()
+
+    Base.metadata.create_all(bind=engine)
+
+    return {"status": "ok", "message": "pgvector extension + tables ready"}
