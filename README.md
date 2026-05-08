@@ -7,6 +7,12 @@ Input a movie quote, and AI automatically generates a hilarious quote relay conv
 
 **🌐 Try it live:** [line-relay-vert.vercel.app](https://line-relay-vert.vercel.app)
 
+## Demo
+
+![Line Relay demo — "I love you!"](assets/I_love_you.gif)
+
+Type any quote, get a 6-line relay across films — keyword pivots, tonal twists, and absurd jumps, ranked by an LLM judge.
+
 ## Quick Start | 快速启动
 
 ```bash
