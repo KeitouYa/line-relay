@@ -1,6 +1,11 @@
 # Line Relay - AI Movie Quote Relay Generator | AI台词接龙视频生成器
 
+[![CI](https://github.com/KeitouYa/line-relay/actions/workflows/ci.yml/badge.svg)](https://github.com/KeitouYa/line-relay/actions/workflows/ci.yml)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://line-relay-vert.vercel.app)
+
 Input a movie quote, and AI automatically generates a hilarious quote relay conversation. | 输入一句电影台词，AI自动生成搞笑台词接龙视频。
+
+**🌐 Try it live:** [line-relay-vert.vercel.app](https://line-relay-vert.vercel.app)
 
 ## Quick Start | 快速启动
 

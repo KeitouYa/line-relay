@@ -1,0 +1,74 @@
+name: CI
+
+# 触发条件: push 到任何分支 + 所有 PR 到 main
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ────────── Job 1: Backend 测试 ──────────
+  backend-test:
+    name: Backend tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        working-directory: ./backend
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run pytest
+        working-directory: ./backend
+        env:
+          # 测试环境变量(CI 没真数据库,但 Settings 加载需要这些字段存在)
+          DATABASE_URL: postgresql://test:test@localhost:5432/test
+          REDIS_URL: redis://localhost:6379/0
+          S3_ENDPOINT: http://localhost:9000
+          S3_ACCESS_KEY: test
+          S3_SECRET_KEY: test
+          ANTHROPIC_API_KEY: test
+          OPENAI_API_KEY: test
+          DEEPSEEK_API_KEY: test
+          GEMINI_API_KEY: test
+          OPENSUBTITLES_API_KEY: test
+          ADMIN_TOKEN: test
+        run: pytest -v
+
+  # ────────── Job 2: Frontend 构建 ──────────
+  frontend-build:
+    name: Frontend build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./frontend
+        run: npm ci
+
+      - name: Run build
+        working-directory: ./frontend
+        env:
+          NEXT_PUBLIC_API_URL: https://line-relay-api.onrender.com
+        run: npm run build
