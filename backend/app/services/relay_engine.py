@@ -16,12 +16,26 @@ class RelayEngine:
         self.llm = get_llm_provider()
 
     def find_seed_quote(self, seed_text: str) -> Quote | None:
-        """用户输入起始台词,在库里找最匹配的一条作为 seed"""
-        rows = self.search.semantic_search(seed_text, limit=1)
-        if not rows:
+        """用户输入起始台词,用 hybrid retrieval 在库里找最匹配的一条作为 seed.
+
+        Aligns seed selection with the downstream hybrid retrieval used in step().
+        Pure embedding fails on short queries (stopwords dominate cosine similarity).
+        Combined with keyword path via RRF, surfaces semantically meaningful seeds.
+
+        See: docs/improvements/01-hybrid-seed-selection.md
+        """
+        keyword_hits = self.search.keyword_search(seed_text, limit=10)
+        semantic_hits = [q for q, _ in self.search.semantic_search(seed_text, limit=10)]
+
+        if not keyword_hits and not semantic_hits:
             return None
-        quote, _distance = rows[0]
-        return quote
+
+        merged = rrf_merge({
+            "keyword": keyword_hits,
+            "semantic": semantic_hits,
+        }, top_n=5)
+
+        return merged[0] if merged else None
 
     def step(
         self,

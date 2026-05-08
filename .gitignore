@@ -15,8 +15,9 @@ node_modules/
 postgres_data/
 minio_data/
 
-# Project planning (not needed for deployment)
+# Project planning & internal docs (not needed for deployment)
 specs/
+docs/
 MVP1_Plan.md
 Project_Idea.md
 
