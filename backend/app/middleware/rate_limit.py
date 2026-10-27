@@ -3,6 +3,27 @@ from fastapi import Request, HTTPException
 from redis import Redis
 from app.config import settings
 
+# 三层限流放在一个 Lua 脚本里：先检查，全部通过才计数。
+# Redis 执行脚本时不会插入其他命令，所以检查和计数之间没有竞态，
+# 被拒绝的请求也不会占用额度。
+RATE_LIMIT_LUA = """
+-- KEYS[1]=全局计数 KEYS[2]=IP计数 KEYS[3]=冷却key
+-- ARGV[1]=全局上限 ARGV[2]=IP上限 ARGV[3]=冷却秒数 ARGV[4]=每日key的TTL
+if tonumber(redis.call('GET', KEYS[1]) or '0') >= tonumber(ARGV[1]) then
+  return {0, 'daily_limit_exceeded', 0}
+end
+if tonumber(redis.call('GET', KEYS[2]) or '0') >= tonumber(ARGV[2]) then
+  return {0, 'ip_limit_exceeded', 0}
+end
+if redis.call('EXISTS', KEYS[3]) == 1 then
+  return {0, 'rate_limit_exceeded', redis.call('TTL', KEYS[3])}
+end
+if redis.call('INCR', KEYS[1]) == 1 then redis.call('EXPIRE', KEYS[1], ARGV[4]) end
+if redis.call('INCR', KEYS[2]) == 1 then redis.call('EXPIRE', KEYS[2], ARGV[4]) end
+redis.call('SET', KEYS[3], '1', 'EX', ARGV[3])
+return {1, 'ok', 0}
+"""
+
 
 def get_redis() -> Redis:
     return Redis.from_url(settings.redis_url, decode_responses=True)
@@ -19,84 +40,60 @@ def get_client_ip(request: Request) -> str:
     return request.client.host if request.client else "127.0.0.1"
 
 
+def raise_limit_error(reason: str, retry_after: int = 0) -> None:
+    """按拒绝原因抛出 429，文案和格式保持不变（前端读 detail.message）"""
+    if reason == "daily_limit_exceeded":
+        detail = {
+            "error": reason,
+            "message": "Daily relay limit reached. Come back tomorrow 🎬",
+            "limit": settings.global_daily_limit,
+        }
+    elif reason == "ip_limit_exceeded":
+        detail = {
+            "error": reason,
+            "message": f"You've used all {settings.ip_daily_limit} relays today. See you tomorrow 😄",
+            "limit": settings.ip_daily_limit,
+        }
+    else:
+        detail = {
+            "error": "rate_limit_exceeded",
+            "message": f"Too fast! Please wait {retry_after}s and try again 🙏",
+            "retry_after": retry_after,
+        }
+    raise HTTPException(status_code=429, detail=detail)
+
+
 def check_rate_limits(request: Request, consume: bool = True) -> None:
     """
     检查三层限流，任意一层超限就抛 429。
 
     consume=False：只读探测（fetch probe 用），不消耗配额。
-    consume=True： 消耗配额（正式 EventSource 请求用）。
+    consume=True： 在一个 Lua 脚本里先检查、全部通过才计数（正式 EventSource 请求用）。
     """
     redis = get_redis()
     today = date.today().isoformat()
     ip = get_client_ip(request)
+    global_key = f"global_relay_count:{today}"  # 层1：全局每日限额
+    ip_key = f"ip_relay_count:{today}:{ip}"     # 层2：IP 每日限额
+    freq_key = f"ip_freq:{ip}"                  # 层3：IP 频率限制
 
-    # 层1：全局每日限额
-    global_key = f"global_relay_count:{today}"
     if consume:
-        global_count = redis.incr(global_key)
-        if global_count == 1:
-            redis.expire(global_key, 90000)
-        global_exceeded = global_count > settings.global_daily_limit
-    else:
-        val = redis.get(global_key)
-        global_count = int(val) if val else 0
-        global_exceeded = global_count >= settings.global_daily_limit
-
-    if global_exceeded:
-        raise HTTPException(
-            status_code=429,
-            detail={
-                "error": "daily_limit_exceeded",
-                "message": "Daily relay limit reached. Come back tomorrow 🎬",
-                "limit": settings.global_daily_limit,
-            },
+        script = redis.register_script(RATE_LIMIT_LUA)
+        allowed, reason, retry_after = script(
+            keys=[global_key, ip_key, freq_key],
+            args=[settings.global_daily_limit, settings.ip_daily_limit,
+                  settings.freq_limit_seconds, 90000],
         )
+        if not allowed:
+            raise_limit_error(reason, retry_after)
+        return
 
-    # 层2：IP 每日限额
-    ip_key = f"ip_relay_count:{today}:{ip}"
-    if consume:
-        ip_count = redis.incr(ip_key)
-        if ip_count == 1:
-            redis.expire(ip_key, 90000)
-        ip_exceeded = ip_count > settings.ip_daily_limit
-    else:
-        val = redis.get(ip_key)
-        ip_count = int(val) if val else 0
-        ip_exceeded = ip_count >= settings.ip_daily_limit
-
-    if ip_exceeded:
-        raise HTTPException(
-            status_code=429,
-            detail={
-                "error": "ip_limit_exceeded",
-                "message": f"You've used all {settings.ip_daily_limit} relays today. See you tomorrow 😄",
-                "limit": settings.ip_daily_limit,
-            },
-        )
-
-    # 层3：IP 频率限制
-    freq_key = f"ip_freq:{ip}"
-    freq_ttl = settings.freq_limit_seconds
-    if consume:
-        if not redis.set(freq_key, "1", nx=True, ex=freq_ttl):
-            retry_after = redis.ttl(freq_key)
-            raise HTTPException(
-                status_code=429,
-                detail={
-                    "error": "rate_limit_exceeded",
-                    "message": f"Too fast! Please wait {retry_after}s and try again 🙏",
-                    "retry_after": retry_after,
-                },
-            )
-    else:
-        # 只读探测：检查 key 是否存在
-        if redis.exists(freq_key):
-            retry_after = redis.ttl(freq_key)
-            raise HTTPException(
-                status_code=429,
-                detail={
-                    "error": "rate_limit_exceeded",
-                    "message": f"Too fast! Please wait {retry_after}s and try again 🙏",
-                    "retry_after": retry_after,
-                },
-            )
+    # 只读探测：只 GET 不写，和原来一样
+    val = redis.get(global_key)
+    if (int(val) if val else 0) >= settings.global_daily_limit:
+        raise_limit_error("daily_limit_exceeded")
+    val = redis.get(ip_key)
+    if (int(val) if val else 0) >= settings.ip_daily_limit:
+        raise_limit_error("ip_limit_exceeded")
+    if redis.exists(freq_key):
+        raise_limit_error("rate_limit_exceeded", redis.ttl(freq_key))
