@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "runs": 10,
+    "success": 10,
+    "success_rate": 1.0,
+    "t_seed": {
+      "mean_s": 0.237,
+      "p50_s": 0.21,
+      "p95_s": 0.509,
+      "max_s": 0.509
+    },
+    "t_first_round": {
+      "mean_s": 2.139,
+      "p50_s": 2.066,
+      "p95_s": 2.699,
+      "max_s": 2.699
+    },
+    "t_done": {
+      "mean_s": 9.583,
+      "p50_s": 9.527,
+      "p95_s": 10.225,
+      "max_s": 10.225
+    },
+    "llm_fallback_rate": 0.0,
+    "label": "real",
+    "rounds_per_run": 5,
+    "mock_llm_detected": false
+  },
+  "runs": [
+    {
+      "seed": "I love you",
+      "status": 200,
+      "t_seed": 0.5094380379999848,
+      "t_first_round": 2.6994932529999573,
+      "t_done": 9.867698750999978,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "twist",
+        "twist",
+        "twist",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "You shall not pass",
+      "status": 200,
+      "t_seed": 0.21608717899999874,
+      "t_first_round": 2.0590373869999894,
+      "t_done": 9.220318391999967,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "break",
+        "break",
+        "keyword-trigger",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Why so serious?",
+      "status": 200,
+      "t_seed": 0.23120720399998618,
+      "t_first_round": 2.0738640179999948,
+      "t_done": 9.310232606999989,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "keyword-trigger",
+        "twist",
+        "twist",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "To be or not to be",
+      "status": 200,
+      "t_seed": 0.23868861800002605,
+      "t_first_round": 2.0023431730000425,
+      "t_done": 9.269604694000009,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "twist",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Run, Forrest, run",
+      "status": 200,
+      "t_seed": 0.1759385189999989,
+      "t_first_round": 2.0746930519999864,
+      "t_done": 9.715473446000033,
+      "rounds": 5,
+      "modes": [
+        "break",
+        "keyword-trigger",
+        "keyword-trigger",
+        "twist",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "I love you!",
+      "status": 200,
+      "t_seed": 0.2038237140000092,
+      "t_first_round": 2.0177080330000194,
+      "t_done": 9.227585043000033,
+      "rounds": 5,
+      "modes": [
+        "follow-up",
+        "break",
+        "break",
+        "twist",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Old, too old. Fat, too fat.",
+      "status": 200,
+      "t_seed": 0.193105093999975,
+      "t_first_round": 2.137590079000006,
+      "t_done": 9.491057651000006,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "twist",
+        "twist",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Yeah. I guess so.",
+      "status": 200,
+      "t_seed": 0.2385891929999957,
+      "t_first_round": 2.0141171789999817,
+      "t_done": 9.942401916999984,
+      "rounds": 5,
+      "modes": [
+        "break",
+        "keyword-trigger",
+        "keyword-trigger",
+        "twist",
+        "follow-up"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "WOMAN 3: Good night. Sweet dreams.",
+      "status": 200,
+      "t_seed": 0.204774714999985,
+      "t_first_round": 1.9504695089999586,
+      "t_done": 10.225212005000003,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "break",
+        "keyword-trigger",
+        "keyword-trigger",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "he declared their case hopeless.",
+      "status": 200,
+      "t_seed": 0.15895324999996774,
+      "t_first_round": 2.360384137999972,
+      "t_done": 9.56274302899999,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "keyword-trigger",
+        "keyword-trigger",
+        "break",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    }
+  ]
+}

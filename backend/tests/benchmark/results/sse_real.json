@@ -1,0 +1,541 @@
+{
+  "summary": {
+    "runs": 30,
+    "success": 30,
+    "success_rate": 1.0,
+    "t_seed": {
+      "mean_s": 0.298,
+      "p50_s": 0.225,
+      "p95_s": 0.761,
+      "max_s": 1.436
+    },
+    "t_first_round": {
+      "mean_s": 2.214,
+      "p50_s": 2.112,
+      "p95_s": 2.865,
+      "max_s": 4.293
+    },
+    "t_done": {
+      "mean_s": 9.889,
+      "p50_s": 9.556,
+      "p95_s": 12.562,
+      "max_s": 13.502
+    },
+    "llm_fallback_rate": 0.0,
+    "label": "real",
+    "rounds_per_run": 5,
+    "mock_llm_detected": false
+  },
+  "runs": [
+    {
+      "seed": "I love you",
+      "status": 200,
+      "t_seed": 1.4359049380000215,
+      "t_first_round": 4.292692218999946,
+      "t_done": 12.11882726100066,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "twist",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "You shall not pass",
+      "status": 200,
+      "t_seed": 0.7607731330008392,
+      "t_first_round": 2.8647808630003055,
+      "t_done": 10.557101103000605,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "twist",
+        "break",
+        "twist",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Why so serious?",
+      "status": 200,
+      "t_seed": 0.258744184000534,
+      "t_first_round": 2.2144053010006246,
+      "t_done": 9.703781822000565,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "break",
+        "keyword-trigger",
+        "keyword-trigger",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "To be or not to be",
+      "status": 200,
+      "t_seed": 0.5121713549997366,
+      "t_first_round": 2.6963950279996425,
+      "t_done": 10.981513599999744,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "twist",
+        "keyword-trigger",
+        "follow-up"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Run, Forrest, run",
+      "status": 200,
+      "t_seed": 0.3162418740002977,
+      "t_first_round": 2.6804297480002788,
+      "t_done": 10.122585781999987,
+      "rounds": 5,
+      "modes": [
+        "break",
+        "twist",
+        "twist",
+        "break",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "I love you!",
+      "status": 200,
+      "t_seed": 0.20493135200013057,
+      "t_first_round": 1.911927162000211,
+      "t_done": 13.50165104000007,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Old, too old. Fat, too fat.",
+      "status": 200,
+      "t_seed": 0.2510737889997472,
+      "t_first_round": 2.129808628000319,
+      "t_done": 10.044012868000209,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "follow-up"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Yeah. I guess so.",
+      "status": 200,
+      "t_seed": 0.20336259799933032,
+      "t_first_round": 2.156553195000015,
+      "t_done": 9.863133983999433,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "WOMAN 3: Good night. Sweet dreams.",
+      "status": 200,
+      "t_seed": 0.3203353779999816,
+      "t_first_round": 2.1022549920007805,
+      "t_done": 9.5242656420005,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "break",
+        "twist",
+        "keyword-trigger",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "he declared their case hopeless.",
+      "status": 200,
+      "t_seed": 0.26613781199921505,
+      "t_first_round": 1.981821717999992,
+      "t_done": 9.518760105999718,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "It was the precious.",
+      "status": 200,
+      "t_seed": 0.19905004200063559,
+      "t_first_round": 1.77586213900031,
+      "t_done": 9.744106228999954,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "break",
+        "break",
+        "twist",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "I squashed it.",
+      "status": 200,
+      "t_seed": 0.1669151759997476,
+      "t_first_round": 2.0796266059996924,
+      "t_done": 9.709237787999882,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "break",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "You're late. Yes, sir.",
+      "status": 200,
+      "t_seed": 0.26261385299949325,
+      "t_first_round": 2.184953645999485,
+      "t_done": 9.423740422000265,
+      "rounds": 5,
+      "modes": [
+        "break",
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "You'll find the boiler room where...",
+      "status": 200,
+      "t_seed": 0.20320717499998864,
+      "t_first_round": 2.3516933609998887,
+      "t_done": 9.460534974999973,
+      "rounds": 5,
+      "modes": [
+        "follow-up",
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "There won't be any fireworks.",
+      "status": 200,
+      "t_seed": 0.19147964299918385,
+      "t_first_round": 2.0124910059994363,
+      "t_done": 9.368080299999747,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger",
+        "break",
+        "follow-up"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Private Gump here",
+      "status": 200,
+      "t_seed": 0.2664716999997836,
+      "t_first_round": 2.0203383830003077,
+      "t_done": 9.371824619999643,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "keyword-trigger",
+        "keyword-trigger",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "The smell of dried blood,",
+      "status": 200,
+      "t_seed": 0.30949590699947294,
+      "t_first_round": 2.052099998999438,
+      "t_done": 9.360800692999874,
+      "rounds": 5,
+      "modes": [
+        "break",
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Teaching him how to play Ping-Pong.",
+      "status": 200,
+      "t_seed": 0.2065198780001083,
+      "t_first_round": 2.045805945000211,
+      "t_done": 9.722799698000017,
+      "rounds": 5,
+      "modes": [
+        "follow-up",
+        "keyword-trigger",
+        "twist",
+        "twist",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Here he is, Forrest Gump.",
+      "status": 200,
+      "t_seed": 0.2488316520002627,
+      "t_first_round": 2.1480360650002694,
+      "t_done": 12.56227671600027,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Forrest Gump. Yes, sir!",
+      "status": 200,
+      "t_seed": 0.20059575699997367,
+      "t_first_round": 2.1351497670002573,
+      "t_done": 9.069078651000382,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "twist",
+        "break",
+        "twist",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Now... you listen to me.",
+      "status": 200,
+      "t_seed": 0.22351122600048257,
+      "t_first_round": 2.2871935950006446,
+      "t_done": 9.577953766000064,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "break",
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "\"Why are you beating me?\"",
+      "status": 200,
+      "t_seed": 0.1991963880000185,
+      "t_first_round": 1.9498741659999723,
+      "t_done": 9.666260453000177,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "I'm in trouble, Mr. Potter.",
+      "status": 200,
+      "t_seed": 0.20352814699981536,
+      "t_first_round": 2.204516073999912,
+      "t_done": 9.443799804999799,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "keyword-trigger",
+        "keyword-trigger",
+        "break",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Maybe it's because I'm Irish.",
+      "status": 200,
+      "t_seed": 0.22055774799991923,
+      "t_first_round": 2.0157147330000953,
+      "t_done": 9.058684769000138,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger",
+        "break",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "How about you?",
+      "status": 200,
+      "t_seed": 0.25370115700025053,
+      "t_first_round": 2.02006761299981,
+      "t_done": 9.660690347000127,
+      "rounds": 5,
+      "modes": [
+        "break",
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Oh, yes. Thank you.",
+      "status": 200,
+      "t_seed": 0.19855332299994188,
+      "t_first_round": 1.9732357270004286,
+      "t_done": 9.533739698999852,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "twist",
+        "twist",
+        "break",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Two clicks, left wind.",
+      "status": 200,
+      "t_seed": 0.22684890900018218,
+      "t_first_round": 2.2446171700003106,
+      "t_done": 8.99830248499984,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "break",
+        "break",
+        "keyword-trigger",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "this guy going out a lot...",
+      "status": 200,
+      "t_seed": 0.17787517000033404,
+      "t_first_round": 1.9829519490003804,
+      "t_done": 9.250587423999605,
+      "rounds": 5,
+      "modes": [
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger",
+        "break",
+        "break"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "Yeah, we happy. Pbbbt.",
+      "status": 200,
+      "t_seed": 0.2210460209998928,
+      "t_first_round": 1.7730976580005517,
+      "t_done": 8.410714071000257,
+      "rounds": 5,
+      "modes": [
+        "keyword-trigger",
+        "twist",
+        "keyword-trigger",
+        "twist",
+        "twist"
+      ],
+      "error": null,
+      "mock_llm": false
+    },
+    {
+      "seed": "This won't have a happy ending.",
+      "status": 200,
+      "t_seed": 0.22749847599970963,
+      "t_first_round": 2.1218670649996056,
+      "t_done": 9.354216785999597,
+      "rounds": 5,
+      "modes": [
+        "break",
+        "twist",
+        "twist",
+        "keyword-trigger",
+        "keyword-trigger"
+      ],
+      "error": null,
+      "mock_llm": false
+    }
+  ]
+}

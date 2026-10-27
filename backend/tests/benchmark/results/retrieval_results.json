@@ -1,0 +1,3190 @@
+[
+  {
+    "type": "user",
+    "query": "I love you",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 1,
+    "vector_ids": [
+      2768,
+      12312,
+      14532,
+      12313,
+      14533
+    ],
+    "hybrid_ids": [
+      22169,
+      2768,
+      15948,
+      12312,
+      23263
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 1679.5,
+    "hybrid_ms": 1712.6,
+    "quotes": {
+      "2768": {
+        "text": "And I love you.",
+        "movie": "The Godfather"
+      },
+      "12312": {
+        "text": "I love you, Pumpkin.",
+        "movie": "Pulp Fiction"
+      },
+      "14532": {
+        "text": "I love you, Pumpkin.",
+        "movie": "Pulp Fiction"
+      },
+      "12313": {
+        "text": "I love you, Honey Bunny.",
+        "movie": "Pulp Fiction"
+      },
+      "14533": {
+        "text": "And I love you, Honey Bunny.",
+        "movie": "Pulp Fiction"
+      },
+      "22169": {
+        "text": "...that I'd fall in love with that man. The man that I love would be the One.",
+        "movie": "The Matrix"
+      },
+      "15948": {
+        "text": "He hates and loves the ring, as he hates and loves himseIf.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "23263": {
+        "text": "I love you. You know I love you.",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "user",
+    "query": "You shall not pass",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 2,
+    "vector_ids": [
+      26535,
+      12037,
+      11488,
+      20698,
+      9396
+    ],
+    "hybrid_ids": [
+      11448,
+      26535,
+      16038,
+      12037,
+      11488
+    ],
+    "keyword_hits": 2,
+    "vector_ms": 611.0,
+    "hybrid_ms": 615.8,
+    "quotes": {
+      "26535": {
+        "text": "You can't go in.",
+        "movie": "Se7en"
+      },
+      "12037": {
+        "text": "Mustn't go that way.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "11488": {
+        "text": "The Dead do not suffer the living to pass.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "20698": {
+        "text": "you will not be safe.",
+        "movie": "Fight Club"
+      },
+      "9396": {
+        "text": "He won't see you.",
+        "movie": "Schindler's List"
+      },
+      "11448": {
+        "text": "He shall pass the door to the Paths of the Dead.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "16038": {
+        "text": "YOU - SHALL NOT - PASS!",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      }
+    }
+  },
+  {
+    "type": "user",
+    "query": "Why so serious?",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 3,
+    "vector_ids": [
+      3533,
+      3527,
+      3529,
+      34629,
+      6936
+    ],
+    "hybrid_ids": [
+      13298,
+      3533,
+      14063,
+      3527,
+      14463
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 253.0,
+    "hybrid_ms": 264.9,
+    "quotes": {
+      "3533": {
+        "text": "Why so serious?",
+        "movie": "The Dark Knight"
+      },
+      "3527": {
+        "text": "\"Why so serious?\"",
+        "movie": "The Dark Knight"
+      },
+      "3529": {
+        "text": "\"Why so serious?\"",
+        "movie": "The Dark Knight"
+      },
+      "34629": {
+        "text": "What, are you serious?",
+        "movie": "Spirited Away"
+      },
+      "6936": {
+        "text": "What are you getting so hot about? Calm down, will you?",
+        "movie": "12 Angry Men"
+      },
+      "13298": {
+        "text": "I seriously doubt that.",
+        "movie": "Pulp Fiction"
+      },
+      "14063": {
+        "text": "Me and my homeboy are in some serious fucking shit, man.",
+        "movie": "Pulp Fiction"
+      },
+      "14463": {
+        "text": "You been sitting there all serious and shit.",
+        "movie": "Pulp Fiction"
+      }
+    }
+  },
+  {
+    "type": "user",
+    "query": "To be or not to be",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 4,
+    "vector_ids": [
+      11204,
+      30917,
+      15871,
+      33524,
+      33147
+    ],
+    "hybrid_ids": [
+      11204,
+      30917,
+      15871,
+      33524,
+      33147
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 658.0,
+    "hybrid_ms": 659.6,
+    "quotes": {
+      "11204": {
+        "text": "...in living or dying...",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "30917": {
+        "text": "''Theirs not to reason why, theirs but to do and die.''",
+        "movie": "Saving Private Ryan"
+      },
+      "15871": {
+        "text": "...for good or for evil.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "33524": {
+        "text": "Do not go gentle into that good night",
+        "movie": "Interstellar"
+      },
+      "33147": {
+        "text": "Do not go gentle into that good night",
+        "movie": "Interstellar"
+      }
+    }
+  },
+  {
+    "type": "user",
+    "query": "Run, Forrest, run",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 5,
+    "vector_ids": [
+      19986,
+      16658,
+      16711,
+      16662,
+      16706
+    ],
+    "hybrid_ids": [
+      16711,
+      16658,
+      19986,
+      16662,
+      16706
+    ],
+    "keyword_hits": 8,
+    "vector_ms": 177.3,
+    "hybrid_ms": 182.7,
+    "quotes": {
+      "19986": {
+        "text": "Run, Forrest, run!",
+        "movie": "Fight Club"
+      },
+      "16658": {
+        "text": "Run, Forrest, run!",
+        "movie": "Forrest Gump"
+      },
+      "16711": {
+        "text": "Run, Forrest! Run!",
+        "movie": "Forrest Gump"
+      },
+      "16662": {
+        "text": "Run, Forrest! Run!",
+        "movie": "Forrest Gump"
+      },
+      "16706": {
+        "text": "Run, Forrest, run! Hey,",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "user",
+    "query": "I love you!",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 6,
+    "vector_ids": [
+      6328,
+      16660,
+      15818,
+      29481,
+      12055
+    ],
+    "hybrid_ids": [
+      22169,
+      6328,
+      15948,
+      16660,
+      23263
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 948.3,
+    "hybrid_ms": 956.0,
+    "quotes": {
+      "6328": {
+        "text": "...and this is for you!",
+        "movie": "The Godfather Part II"
+      },
+      "16660": {
+        "text": "Come back here, you!",
+        "movie": "Forrest Gump"
+      },
+      "15818": {
+        "text": "You've got my arm! You've got my arm!",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "29481": {
+        "text": "Bye-bye! Bye-bye!",
+        "movie": "It's a Wonderful Life"
+      },
+      "12055": {
+        "text": "Precious! Precious!",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "22169": {
+        "text": "...that I'd fall in love with that man. The man that I love would be the One.",
+        "movie": "The Matrix"
+      },
+      "15948": {
+        "text": "He hates and loves the ring, as he hates and loves himseIf.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "23263": {
+        "text": "I love you. You know I love you.",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Old, too old. Fat, too fat.",
+    "source_id": 20074,
+    "source_movie": "Fight Club",
+    "query_id": 7,
+    "vector_ids": [
+      33214,
+      761,
+      19974,
+      31365,
+      12621
+    ],
+    "hybrid_ids": [
+      17187,
+      33214,
+      20106,
+      761,
+      19974
+    ],
+    "keyword_hits": 2,
+    "vector_ms": 315.0,
+    "hybrid_ms": 320.4,
+    "quotes": {
+      "33214": {
+        "text": "Too many memories.",
+        "movie": "Interstellar"
+      },
+      "761": {
+        "text": "The old man's as crazy as a rat in a tin shithouse.",
+        "movie": "The Shawshank Redemption"
+      },
+      "19974": {
+        "text": "Too much school.",
+        "movie": "Fight Club"
+      },
+      "31365": {
+        "text": "Gross overload.",
+        "movie": "Saving Private Ryan"
+      },
+      "12621": {
+        "text": "motherfuckers who thought their ass would age like wine.",
+        "movie": "Pulp Fiction"
+      },
+      "17187": {
+        "text": "and big old fat rain,",
+        "movie": "Forrest Gump"
+      },
+      "20106": {
+        "text": "You're too old, fat man.",
+        "movie": "Fight Club"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Yeah. I guess so.",
+    "source_id": 18829,
+    "source_movie": "Fight Club",
+    "query_id": 8,
+    "vector_ids": [
+      6605,
+      6586,
+      23501,
+      31757,
+      24719
+    ],
+    "hybrid_ids": [
+      6605,
+      31308,
+      6586,
+      31498,
+      23501
+    ],
+    "keyword_hits": 3,
+    "vector_ms": 255.7,
+    "hybrid_ms": 261.0,
+    "quotes": {
+      "6605": {
+        "text": "Yeah, I guess so.",
+        "movie": "12 Angry Men"
+      },
+      "6586": {
+        "text": "I, uh - Well, I guess so.",
+        "movie": "12 Angry Men"
+      },
+      "23501": {
+        "text": "Yeah. Of course.",
+        "movie": "Goodfellas"
+      },
+      "31757": {
+        "text": "Yeah. l'm afraid so.",
+        "movie": "Saving Private Ryan"
+      },
+      "24719": {
+        "text": "Yeah. That's right.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "31308": {
+        "text": "Yeah, well, l guess that's Emerson's way",
+        "movie": "Saving Private Ryan"
+      },
+      "31498": {
+        "text": "See it? Yeah. That's my guess, too.",
+        "movie": "Saving Private Ryan"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "WOMAN 3: Good night. Sweet dreams.",
+    "source_id": 9700,
+    "source_movie": "Schindler's List",
+    "query_id": 9,
+    "vector_ids": [
+      9699,
+      9698,
+      29192,
+      13107,
+      15148
+    ],
+    "hybrid_ids": [
+      9699,
+      9698,
+      29192,
+      13107,
+      15148
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 958.0,
+    "hybrid_ms": 961.6,
+    "quotes": {
+      "9699": {
+        "text": "WOMAN 2: Good night.",
+        "movie": "Schindler's List"
+      },
+      "9698": {
+        "text": "WOMAN 1: Yeah, we do now. Good night.",
+        "movie": "Schindler's List"
+      },
+      "29192": {
+        "text": "- Good night. - Good night!",
+        "movie": "It's a Wonderful Life"
+      },
+      "13107": {
+        "text": "Say good night and go home. Girl",
+        "movie": "Pulp Fiction"
+      },
+      "15148": {
+        "text": "Good night, sweet maiden of the golden ale.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "he declared their case hopeless.",
+    "source_id": 33363,
+    "source_movie": "Interstellar",
+    "query_id": 10,
+    "vector_ids": [
+      25857,
+      11518,
+      18147,
+      11439,
+      69
+    ],
+    "hybrid_ids": [
+      25857,
+      11518,
+      18147,
+      11439,
+      69
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 311.7,
+    "hybrid_ms": 314.9,
+    "quotes": {
+      "25857": {
+        "text": "Those cases were taken as close to conclusion as possible.",
+        "movie": "Se7en"
+      },
+      "11518": {
+        "text": "They were outnumbered.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "18147": {
+        "text": "They just couldn't believe",
+        "movie": "Forrest Gump"
+      },
+      "11439": {
+        "text": "...they fled...",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "69": {
+        "text": "They... had sinned.",
+        "movie": "The Shawshank Redemption"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "It was the precious.",
+    "source_id": 11610,
+    "source_movie": "The Lord of the Rings: The Return of the King",
+    "query_id": 11,
+    "vector_ids": [
+      10723,
+      12040,
+      10694,
+      30736,
+      13984
+    ],
+    "hybrid_ids": [
+      10723,
+      12040,
+      15068,
+      12056,
+      28187
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 239.1,
+    "hybrid_ms": 248.6,
+    "quotes": {
+      "10723": {
+        "text": "The precious will be ours...",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "12040": {
+        "text": "You swore on the precious!",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "10694": {
+        "text": "What's it saying, my precious, my love?",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "30736": {
+        "text": "''..we all cherish and hold so dear.",
+        "movie": "Saving Private Ryan"
+      },
+      "13984": {
+        "text": "This was divine intervention.",
+        "movie": "Pulp Fiction"
+      },
+      "15068": {
+        "text": "My own. - My precious. - Precious?",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "12056": {
+        "text": "Precious! Precious!",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "28187": {
+        "text": "Come on, Precious. Come on, Precious!",
+        "movie": "The Silence of the Lambs"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "I squashed it.",
+    "source_id": 34761,
+    "source_movie": "Spirited Away",
+    "query_id": 12,
+    "vector_ids": [
+      5850,
+      2526,
+      23044,
+      13524,
+      30476
+    ],
+    "hybrid_ids": [
+      14990,
+      5850,
+      24711,
+      2526,
+      34765
+    ],
+    "keyword_hits": 3,
+    "vector_ms": 643.7,
+    "hybrid_ms": 652.0,
+    "quotes": {
+      "5850": {
+        "text": "-I took care of it. -What was it, so I'll know.",
+        "movie": "The Godfather Part II"
+      },
+      "2526": {
+        "text": "It was my fault. I hit him.",
+        "movie": "The Godfather"
+      },
+      "23044": {
+        "text": "I got to hack it off.",
+        "movie": "Goodfellas"
+      },
+      "13524": {
+        "text": "I got in a fight.",
+        "movie": "Pulp Fiction"
+      },
+      "30476": {
+        "text": "I busted the jukebox, too.",
+        "movie": "It's a Wonderful Life"
+      },
+      "14990": {
+        "text": "Whether it be turned on a spit, or to sit on us one by one, squash us into jelly.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "24711": {
+        "text": "Why, my head would squash like an eggplant.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "34765": {
+        "text": "And you squashed it!",
+        "movie": "Spirited Away"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "You're late. Yes, sir.",
+    "source_id": 28423,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 13,
+    "vector_ids": [
+      27246,
+      28464,
+      29514,
+      22392,
+      1210
+    ],
+    "hybrid_ids": [
+      27246,
+      28464,
+      29514,
+      22392,
+      1210
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 201.0,
+    "hybrid_ms": 203.5,
+    "quotes": {
+      "27246": {
+        "text": "I am, yes, sir.",
+        "movie": "The Silence of the Lambs"
+      },
+      "28464": {
+        "text": "- Oh, get going. - Yes, sir.",
+        "movie": "It's a Wonderful Life"
+      },
+      "29514": {
+        "text": "- Yes, sir? - Come in here.",
+        "movie": "It's a Wonderful Life"
+      },
+      "22392": {
+        "text": "Yes, sir. That's me.",
+        "movie": "Goodfellas"
+      },
+      "1210": {
+        "text": "- Yes, sir. - What's the matter with you?",
+        "movie": "The Shawshank Redemption"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "You'll find the boiler room where...",
+    "source_id": 34079,
+    "source_movie": "Spirited Away",
+    "query_id": 14,
+    "vector_ids": [
+      25622,
+      12609,
+      22053,
+      34264,
+      899
+    ],
+    "hybrid_ids": [
+      25622,
+      12609,
+      22053,
+      34264,
+      899
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 338.4,
+    "hybrid_ms": 341.1,
+    "quotes": {
+      "25622": {
+        "text": "...in that room?",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "12609": {
+        "text": "I think you're gonna find...",
+        "movie": "Pulp Fiction"
+      },
+      "22053": {
+        "text": "...this place...",
+        "movie": "The Matrix"
+      },
+      "34264": {
+        "text": "Now where was that...",
+        "movie": "Spirited Away"
+      },
+      "899": {
+        "text": "there are places...",
+        "movie": "The Shawshank Redemption"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "There won't be any fireworks.",
+    "source_id": 4897,
+    "source_movie": "The Dark Knight",
+    "query_id": 15,
+    "vector_ids": [
+      16122,
+      10991,
+      10271,
+      24104,
+      5250
+    ],
+    "hybrid_ids": [
+      16122,
+      10991,
+      10271,
+      24104,
+      5250
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 572.3,
+    "hybrid_ms": 574.2,
+    "quotes": {
+      "16122": {
+        "text": "I bet they don't mention his fireworks.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "10991": {
+        "text": "There's no more stars.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "10271": {
+        "text": "So, there will be no summary executions here.",
+        "movie": "Schindler's List"
+      },
+      "24104": {
+        "text": "There aren't any arguments or curses like in the movies.",
+        "movie": "Goodfellas"
+      },
+      "5250": {
+        "text": "You won't be deprived of anything.",
+        "movie": "The Godfather Part II"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Private Gump here",
+    "source_id": 17684,
+    "source_movie": "Forrest Gump",
+    "query_id": 16,
+    "vector_ids": [
+      34706,
+      28970,
+      31472,
+      31192,
+      21436
+    ],
+    "hybrid_ids": [
+      16938,
+      34706,
+      16962,
+      28970,
+      31472
+    ],
+    "keyword_hits": 2,
+    "vector_ms": 213.6,
+    "hybrid_ms": 218.1,
+    "quotes": {
+      "34706": {
+        "text": "To Swamp Bottom, please.",
+        "movie": "Spirited Away"
+      },
+      "28970": {
+        "text": "if only to have someplace where people can come without crawling to Potter.",
+        "movie": "It's a Wonderful Life"
+      },
+      "31472": {
+        "text": "ended up by Bumville or some damn place.",
+        "movie": "Saving Private Ryan"
+      },
+      "31192": {
+        "text": "Took more fire in the drop. Got messy. l ended up here.",
+        "movie": "Saving Private Ryan"
+      },
+      "21436": {
+        "text": "Deep underground...",
+        "movie": "The Matrix"
+      },
+      "16938": {
+        "text": "You are goddamn gifted, Private Gump.",
+        "movie": "Forrest Gump"
+      },
+      "16962": {
+        "text": "I'd recommend you for O.C.S., Private Gump.",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "The smell of dried blood,",
+    "source_id": 20435,
+    "source_movie": "Fight Club",
+    "query_id": 17,
+    "vector_ids": [
+      26851,
+      14241,
+      34534,
+      31090,
+      31092
+    ],
+    "hybrid_ids": [
+      26851,
+      14241,
+      34534,
+      31090,
+      31092
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 135.9,
+    "hybrid_ms": 138.0,
+    "quotes": {
+      "26851": {
+        "text": "They found blood from Doe's fingers, blood from...",
+        "movie": "Se7en"
+      },
+      "14241": {
+        "text": "The pools of blood that have collected...",
+        "movie": "Pulp Fiction"
+      },
+      "34534": {
+        "text": "Blood! See? It's blood!",
+        "movie": "Spirited Away"
+      },
+      "31090": {
+        "text": "- lt's got blood! - l see it.",
+        "movie": "Saving Private Ryan"
+      },
+      "31092": {
+        "text": "lt's got blood on it.",
+        "movie": "Saving Private Ryan"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Teaching him how to play Ping-Pong.",
+    "source_id": 18363,
+    "source_movie": "Forrest Gump",
+    "query_id": 18,
+    "vector_ids": [
+      595,
+      26832,
+      32260,
+      2420,
+      24068
+    ],
+    "hybrid_ids": [
+      595,
+      26832,
+      32260,
+      2420,
+      24068
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 186.4,
+    "hybrid_ms": 188.7,
+    "quotes": {
+      "595": {
+        "text": "The man likes to play chess.",
+        "movie": "The Shawshank Redemption"
+      },
+      "26832": {
+        "text": "Let him try it.",
+        "movie": "Se7en"
+      },
+      "32260": {
+        "text": "Yeah, he's got a knack for it. What about college?",
+        "movie": "Interstellar"
+      },
+      "2420": {
+        "text": "-I want him to rest. - going to learn the casino business.",
+        "movie": "The Godfather"
+      },
+      "24068": {
+        "text": "How's he doing? Busting his balls or what?",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Here he is, Forrest Gump.",
+    "source_id": 17591,
+    "source_movie": "Forrest Gump",
+    "query_id": 19,
+    "vector_ids": [
+      18133,
+      16720,
+      18269,
+      18262,
+      5099
+    ],
+    "hybrid_ids": [
+      17503,
+      18133,
+      17481,
+      16720,
+      16627
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 581.8,
+    "hybrid_ms": 594.3,
+    "quotes": {
+      "18133": {
+        "text": "a man named Forrest Gump,",
+        "movie": "Forrest Gump"
+      },
+      "16720": {
+        "text": "That there is Forrest Gump, Coach.",
+        "movie": "Forrest Gump"
+      },
+      "18269": {
+        "text": "His name's Forrest.",
+        "movie": "Forrest Gump"
+      },
+      "18262": {
+        "text": "This is my very good friend Mr. Gump.",
+        "movie": "Forrest Gump"
+      },
+      "5099": {
+        "text": "Here he is. This is him.",
+        "movie": "The Godfather Part II"
+      },
+      "17503": {
+        "text": "This is Forrest Gump. Forrest, this is Wesley.",
+        "movie": "Forrest Gump"
+      },
+      "17481": {
+        "text": "My name is Forrest. Forrest Gump.",
+        "movie": "Forrest Gump"
+      },
+      "16627": {
+        "text": "I'm Forrest... Forrest Gump.",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Forrest Gump. Yes, sir!",
+    "source_id": 17793,
+    "source_movie": "Forrest Gump",
+    "query_id": 20,
+    "vector_ids": [
+      18264,
+      92,
+      27246,
+      22392,
+      17412
+    ],
+    "hybrid_ids": [
+      18264,
+      92,
+      27246,
+      22392,
+      17412
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 172.7,
+    "hybrid_ms": 174.3,
+    "quotes": {
+      "18264": {
+        "text": "Hello, Mr. Gump. Hello.",
+        "movie": "Forrest Gump"
+      },
+      "92": {
+        "text": "Oh, yes, sir. Absolutely, sir.",
+        "movie": "The Shawshank Redemption"
+      },
+      "27246": {
+        "text": "I am, yes, sir.",
+        "movie": "The Silence of the Lambs"
+      },
+      "22392": {
+        "text": "Yes, sir. That's me.",
+        "movie": "Goodfellas"
+      },
+      "17412": {
+        "text": "Yes, sir! As you were.",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Now... you listen to me.",
+    "source_id": 17382,
+    "source_movie": "Forrest Gump",
+    "query_id": 21,
+    "vector_ids": [
+      29254,
+      20592,
+      29242,
+      33183,
+      28285
+    ],
+    "hybrid_ids": [
+      11042,
+      32060,
+      29254,
+      29810,
+      20592
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 158.6,
+    "hybrid_ms": 171.1,
+    "quotes": {
+      "29254": {
+        "text": "Now you listen to me.",
+        "movie": "It's a Wonderful Life"
+      },
+      "20592": {
+        "text": "OK, listen to me.",
+        "movie": "Fight Club"
+      },
+      "29242": {
+        "text": "Well, now, listen.",
+        "movie": "It's a Wonderful Life"
+      },
+      "33183": {
+        "text": "So listen to me...",
+        "movie": "Interstellar"
+      },
+      "28285": {
+        "text": "but right now, you listen to me.",
+        "movie": "The Silence of the Lambs"
+      },
+      "11042": {
+        "text": "You listen to me, and you listen good and proper.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "32060": {
+        "text": "Let's stop. Listen to me! Listen to me! Stop!",
+        "movie": "Saving Private Ryan"
+      },
+      "29810": {
+        "text": "Listen to me, listen to me! Think, think!",
+        "movie": "It's a Wonderful Life"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "\"Why are you beating me?\"",
+    "source_id": 9491,
+    "source_movie": "Schindler's List",
+    "query_id": 22,
+    "vector_ids": [
+      9493,
+      9492,
+      21473,
+      9484,
+      24371
+    ],
+    "hybrid_ids": [
+      21473,
+      23744,
+      9493,
+      17470,
+      9492
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 207.0,
+    "hybrid_ms": 218.4,
+    "quotes": {
+      "9493": {
+        "text": "is because you ask why I beat you.\"",
+        "movie": "Schindler's List"
+      },
+      "9492": {
+        "text": "He said, \"The reason I beat you now",
+        "movie": "Schindler's List"
+      },
+      "21473": {
+        "text": "How did I beat you?",
+        "movie": "The Matrix"
+      },
+      "9484": {
+        "text": "My first day here, he beat me",
+        "movie": "Schindler's List"
+      },
+      "24371": {
+        "text": "You've betrayed me.\"",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "23744": {
+        "text": "I beat him to a pulp. To a pulp I beat him.",
+        "movie": "Goodfellas"
+      },
+      "17470": {
+        "text": "I'll beat your head in, you goddamn oinker!",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "I'm in trouble, Mr. Potter.",
+    "source_id": 29945,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 23,
+    "vector_ids": [
+      29593,
+      29601,
+      29731,
+      29532,
+      28463
+    ],
+    "hybrid_ids": [
+      29593,
+      29601,
+      29731,
+      29532,
+      28463
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 163.5,
+    "hybrid_ms": 165.6,
+    "quotes": {
+      "29593": {
+        "text": "Well, Mr. Potter, I...",
+        "movie": "It's a Wonderful Life"
+      },
+      "29601": {
+        "text": "Okay, Mr. Potter.",
+        "movie": "It's a Wonderful Life"
+      },
+      "29731": {
+        "text": "Well, good morning, Mr. Potter. What's the news?",
+        "movie": "It's a Wonderful Life"
+      },
+      "29532": {
+        "text": "- That's quite a cigar, Mr. Potter. - You like it?",
+        "movie": "It's a Wonderful Life"
+      },
+      "28463": {
+        "text": "Mr. Gower, I...",
+        "movie": "It's a Wonderful Life"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Maybe it's because I'm Irish.",
+    "source_id": 363,
+    "source_movie": "The Shawshank Redemption",
+    "query_id": 24,
+    "vector_ids": [
+      22499,
+      16731,
+      24301,
+      10666,
+      7634
+    ],
+    "hybrid_ids": [
+      22499,
+      16731,
+      24301,
+      10666,
+      7634
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 288.4,
+    "hybrid_ms": 290.7,
+    "quotes": {
+      "22499": {
+        "text": "Maybe I'm a little fucked up.",
+        "movie": "Goodfellas"
+      },
+      "16731": {
+        "text": "Now, maybe isjust me,",
+        "movie": "Forrest Gump"
+      },
+      "24301": {
+        "text": "Well, as near as I can figure out, it's because I, uh....",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "10666": {
+        "text": "I think it's affecting me.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "7634": {
+        "text": "It's the way I was brought up.",
+        "movie": "12 Angry Men"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "How about you?",
+    "source_id": 8006,
+    "source_movie": "12 Angry Men",
+    "query_id": 25,
+    "vector_ids": [
+      1419,
+      9861,
+      10530,
+      34744,
+      6870
+    ],
+    "hybrid_ids": [
+      1419,
+      9861,
+      10530,
+      34744,
+      6870
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 235.8,
+    "hybrid_ms": 237.6,
+    "quotes": {
+      "1419": {
+        "text": "What about you?",
+        "movie": "The Shawshank Redemption"
+      },
+      "9861": {
+        "text": "What about you?",
+        "movie": "Schindler's List"
+      },
+      "10530": {
+        "text": "What about you?",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "34744": {
+        "text": "And what about you?",
+        "movie": "Spirited Away"
+      },
+      "6870": {
+        "text": "Uh, how about you?",
+        "movie": "12 Angry Men"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Oh, yes. Thank you.",
+    "source_id": 12223,
+    "source_movie": "Pulp Fiction",
+    "query_id": 26,
+    "vector_ids": [
+      32476,
+      27240,
+      26015,
+      27486,
+      26033
+    ],
+    "hybrid_ids": [
+      27240,
+      32476,
+      26015,
+      27486,
+      26033
+    ],
+    "keyword_hits": 1,
+    "vector_ms": 170.8,
+    "hybrid_ms": 173.2,
+    "quotes": {
+      "32476": {
+        "text": "Yeah. Thank you.",
+        "movie": "Interstellar"
+      },
+      "27240": {
+        "text": "Oh, yes. That's very good. Thank you.",
+        "movie": "The Silence of the Lambs"
+      },
+      "26015": {
+        "text": "Yes, thank you very much.",
+        "movie": "Se7en"
+      },
+      "27486": {
+        "text": "-Yeah. -Thank you.",
+        "movie": "The Silence of the Lambs"
+      },
+      "26033": {
+        "text": "Yeah, I mean, thank you.",
+        "movie": "Se7en"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Two clicks, left wind.",
+    "source_id": 31074,
+    "source_movie": "Saving Private Ryan",
+    "query_id": 27,
+    "vector_ids": [
+      21813,
+      33669,
+      33672,
+      32647,
+      32641
+    ],
+    "hybrid_ids": [
+      21813,
+      33669,
+      33672,
+      32647,
+      32641
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 191.3,
+    "hybrid_ms": 193.7,
+    "quotes": {
+      "21813": {
+        "text": "Switch, straight ahead.",
+        "movie": "The Matrix"
+      },
+      "33669": {
+        "text": "- Ready. - Main engine ignition in three... two...",
+        "movie": "Interstellar"
+      },
+      "33672": {
+        "text": "Lander 1 engines, on my mark.",
+        "movie": "Interstellar"
+      },
+      "32647": {
+        "text": "There is Mach 1.",
+        "movie": "Interstellar"
+      },
+      "32641": {
+        "text": "five, main engine start, four...",
+        "movie": "Interstellar"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "this guy going out a lot...",
+    "source_id": 26556,
+    "source_movie": "Se7en",
+    "query_id": 28,
+    "vector_ids": [
+      12489,
+      25845,
+      26789,
+      22573,
+      14009
+    ],
+    "hybrid_ids": [
+      12489,
+      25845,
+      26789,
+      22573,
+      14009
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 187.6,
+    "hybrid_ms": 189.6,
+    "quotes": {
+      "12489": {
+        "text": "Well, he's going out of town, Florida...",
+        "movie": "Pulp Fiction"
+      },
+      "25845": {
+        "text": "Man, it's his thing. I've been out in the rain all day.",
+        "movie": "Se7en"
+      },
+      "26789": {
+        "text": "Seems he's done that for a while.",
+        "movie": "Se7en"
+      },
+      "22573": {
+        "text": "That's how often he's in there.",
+        "movie": "Goodfellas"
+      },
+      "14009": {
+        "text": "And he just unloaded on this guy...",
+        "movie": "Pulp Fiction"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Yeah, we happy. Pbbbt.",
+    "source_id": 12557,
+    "source_movie": "Pulp Fiction",
+    "query_id": 29,
+    "vector_ids": [
+      8712,
+      13981,
+      29713,
+      14191,
+      28259
+    ],
+    "hybrid_ids": [
+      8712,
+      13981,
+      29713,
+      14191,
+      28259
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 149.7,
+    "hybrid_ms": 152.1,
+    "quotes": {
+      "8712": {
+        "text": "We're doing well?",
+        "movie": "Schindler's List"
+      },
+      "13981": {
+        "text": "I know. We was lucky.",
+        "movie": "Pulp Fiction"
+      },
+      "29713": {
+        "text": "We're all excited around here.",
+        "movie": "It's a Wonderful Life"
+      },
+      "14191": {
+        "text": "Good. We got one.",
+        "movie": "Pulp Fiction"
+      },
+      "28259": {
+        "text": "Yes. We may be.",
+        "movie": "The Silence of the Lambs"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "This won't have a happy ending.",
+    "source_id": 26690,
+    "source_movie": "Se7en",
+    "query_id": 30,
+    "vector_ids": [
+      11369,
+      20085,
+      5014,
+      20698,
+      31047
+    ],
+    "hybrid_ids": [
+      11369,
+      20085,
+      5014,
+      20698,
+      31047
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 168.3,
+    "hybrid_ms": 170.4,
+    "quotes": {
+      "11369": {
+        "text": "It will not be our end, but his.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "20085": {
+        "text": "It's not gonna happen.",
+        "movie": "Fight Club"
+      },
+      "5014": {
+        "text": "People will lose hope.",
+        "movie": "The Dark Knight"
+      },
+      "20698": {
+        "text": "you will not be safe.",
+        "movie": "Fight Club"
+      },
+      "31047": {
+        "text": "Not gonna be safe anywhere.",
+        "movie": "Saving Private Ryan"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "You cannot pass! Gandalf!",
+    "source_id": 16034,
+    "source_movie": "The Lord of the Rings: The Fellowship of the Ring",
+    "query_id": 31,
+    "vector_ids": [
+      10771,
+      16039,
+      14919,
+      15205,
+      11712
+    ],
+    "hybrid_ids": [
+      10771,
+      16039,
+      14919,
+      15205,
+      11712
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 200.4,
+    "hybrid_ms": 202.1,
+    "quotes": {
+      "10771": {
+        "text": "Help! Gandalf, help!",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "16039": {
+        "text": "- No! No! - Gandalf!",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "14919": {
+        "text": "Gandalf! Gandalf!",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "15205": {
+        "text": "Take it, Gandalf!",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "11712": {
+        "text": "Fight for your lives! Gandalf!",
+        "movie": "The Lord of the Rings: The Return of the King"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Give me the Ring.",
+    "source_id": 11860,
+    "source_movie": "The Lord of the Rings: The Return of the King",
+    "query_id": 32,
+    "vector_ids": [
+      12053,
+      11862,
+      15555,
+      15177,
+      15675
+    ],
+    "hybrid_ids": [
+      15831,
+      12053,
+      11859,
+      11862,
+      16170
+    ],
+    "keyword_hits": 3,
+    "vector_ms": 248.9,
+    "hybrid_ms": 253.5,
+    "quotes": {
+      "12053": {
+        "text": "The Ring is mine.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "11862": {
+        "text": "The Ring is my burden.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "15555": {
+        "text": "Embrace the power of the ring...",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "15177": {
+        "text": "The ring has awoken.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "15675": {
+        "text": "The ring of power...",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "15831": {
+        "text": "Give the ring to Frodo.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "11859": {
+        "text": "Give me the Ring, Sam.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "16170": {
+        "text": "... I will give you the one ring.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "I'm still thinking.",
+    "source_id": 28429,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 33,
+    "vector_ids": [
+      14464,
+      14168,
+      4286,
+      27535,
+      17202
+    ],
+    "hybrid_ids": [
+      13306,
+      14464,
+      14168,
+      4286,
+      27535
+    ],
+    "keyword_hits": 1,
+    "vector_ms": 251.5,
+    "hybrid_ms": 254.7,
+    "quotes": {
+      "14464": {
+        "text": "Man, I've just been sitting here thinking.",
+        "movie": "Pulp Fiction"
+      },
+      "14168": {
+        "text": "All I'm doing is contemplating the \"ifs.\"",
+        "movie": "Pulp Fiction"
+      },
+      "4286": {
+        "text": "I'm considering it.",
+        "movie": "The Dark Knight"
+      },
+      "27535": {
+        "text": "I'm considering it.",
+        "movie": "The Silence of the Lambs"
+      },
+      "17202": {
+        "text": "something I been thinking about.",
+        "movie": "Forrest Gump"
+      },
+      "13306": {
+        "text": "Sure. Except that I think I'm still a little too petrified to laugh.",
+        "movie": "Pulp Fiction"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Repeat. Lecter is missing and armed.",
+    "source_id": 28056,
+    "source_movie": "The Silence of the Lambs",
+    "query_id": 34,
+    "vector_ids": [
+      28065,
+      28068,
+      28098,
+      27168,
+      27895
+    ],
+    "hybrid_ids": [
+      28065,
+      28068,
+      28098,
+      27168,
+      27895
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 182.3,
+    "hybrid_ms": 184.3,
+    "quotes": {
+      "28065": {
+        "text": "Lecter is missing and armed.",
+        "movie": "The Silence of the Lambs"
+      },
+      "28068": {
+        "text": "There's a chance Lecter was hit.",
+        "movie": "The Silence of the Lambs"
+      },
+      "28098": {
+        "text": "One warning. We need him alive. Got him. Lecter.",
+        "movie": "The Silence of the Lambs"
+      },
+      "27168": {
+        "text": "Here's a dossier on Lecter.",
+        "movie": "The Silence of the Lambs"
+      },
+      "27895": {
+        "text": "Access to Lecter is strictly limited. We've been getting death threats.",
+        "movie": "The Silence of the Lambs"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "And she knows what? Everything?",
+    "source_id": 21691,
+    "source_movie": "The Matrix",
+    "query_id": 35,
+    "vector_ids": [
+      20554,
+      21692,
+      28207,
+      8110,
+      29136
+    ],
+    "hybrid_ids": [
+      16928,
+      20554,
+      24195,
+      21692,
+      30087
+    ],
+    "keyword_hits": 10,
+    "vector_ms": 189.1,
+    "hybrid_ms": 201.5,
+    "quotes": {
+      "20554": {
+        "text": "She knows too much.",
+        "movie": "Fight Club"
+      },
+      "21692": {
+        "text": "She would say she knows enough.",
+        "movie": "The Matrix"
+      },
+      "28207": {
+        "text": "What did she know? Big dummy.",
+        "movie": "The Silence of the Lambs"
+      },
+      "8110": {
+        "text": "How do you know what she saw? How does he know all that?",
+        "movie": "12 Angry Men"
+      },
+      "29136": {
+        "text": "Well, how did she know?",
+        "movie": "It's a Wonderful Life"
+      },
+      "16928": {
+        "text": "I know everything there is to know",
+        "movie": "Forrest Gump"
+      },
+      "24195": {
+        "text": "- I know nothing about being a rat. - You know everything about it.",
+        "movie": "Goodfellas"
+      },
+      "30087": {
+        "text": "I told you. I'm your guardian angel. I know everything about you.",
+        "movie": "It's a Wonderful Life"
+      }
+    }
+  },
+  {
+    "type": "short",
+    "query": "Rommel knows that,",
+    "source_id": 31488,
+    "source_movie": "Saving Private Ryan",
+    "query_id": 36,
+    "vector_ids": [
+      16089,
+      31993,
+      30761,
+      11621,
+      2333
+    ],
+    "hybrid_ids": [
+      16089,
+      31993,
+      30761,
+      11621,
+      2333
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 221.0,
+    "hybrid_ms": 222.6,
+    "quotes": {
+      "16089": {
+        "text": "The enemy knows you have entered here.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "31993": {
+        "text": "Panzer tanks, two of 'em. lnfantry,",
+        "movie": "Saving Private Ryan"
+      },
+      "30761": {
+        "text": "That's still deep behind German lines.",
+        "movie": "Saving Private Ryan"
+      },
+      "11621": {
+        "text": "Everywhere, legions of the enemy advance.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "2333": {
+        "text": "-He could blast whoever is in the car. -CLEMENZA: They'll expect that.",
+        "movie": "The Godfather"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Why do you come to me? Why do I deserve this generosity?",
+    "source_id": 1970,
+    "source_movie": "The Godfather",
+    "query_id": 37,
+    "vector_ids": [
+      16171,
+      22560,
+      22626,
+      19064,
+      15666
+    ],
+    "hybrid_ids": [
+      16171,
+      22560,
+      22626,
+      19064,
+      15666
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 225.5,
+    "hybrid_ms": 227.4,
+    "quotes": {
+      "16171": {
+        "text": "You offer it to me freely.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "22560": {
+        "text": "What am I gonna do? What do you want from me?",
+        "movie": "Goodfellas"
+      },
+      "22626": {
+        "text": "I do a lot of fucking favors for you.",
+        "movie": "Goodfellas"
+      },
+      "19064": {
+        "text": "Come on. Do me this one favor. Why?",
+        "movie": "Fight Club"
+      },
+      "15666": {
+        "text": "- You cannot give me this. - It is mine to give to whom I will...",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Did Billy Bibbit leave the grounds of the hospital, gentlemen?",
+    "source_id": 25593,
+    "source_movie": "One Flew Over the Cuckoo's Nest",
+    "query_id": 38,
+    "vector_ids": [
+      25595,
+      25635,
+      24938,
+      25569,
+      17376
+    ],
+    "hybrid_ids": [
+      25595,
+      25635,
+      24938,
+      25569,
+      17376
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 266.2,
+    "hybrid_ms": 268.8,
+    "quotes": {
+      "25595": {
+        "text": "Did he leave the grounds of the hospital?",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "25635": {
+        "text": "- Put Billy in Dr. Spivey's office. - No, no. No.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "24938": {
+        "text": "Mr. Harding, Dr. Bibbit...",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "25569": {
+        "text": "Mr. Miller, show this woman the way out of the hospital. Gladly.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "17376": {
+        "text": "The hospital's people",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Get me back. I don't care what happens to me.",
+    "source_id": 30390,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 39,
+    "vector_ids": [
+      33211,
+      1591,
+      1578,
+      32627,
+      23983
+    ],
+    "hybrid_ids": [
+      33211,
+      1591,
+      1578,
+      32627,
+      23983
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 184.6,
+    "hybrid_ms": 187.3,
+    "quotes": {
+      "33211": {
+        "text": "I need to get back.",
+        "movie": "Interstellar"
+      },
+      "1591": {
+        "text": "All I want is to be back where things make sense,",
+        "movie": "The Shawshank Redemption"
+      },
+      "1578": {
+        "text": "I don't give a shit.",
+        "movie": "The Shawshank Redemption"
+      },
+      "32627": {
+        "text": "I'm coming back.",
+        "movie": "Interstellar"
+      },
+      "23983": {
+        "text": "I don't care. I need my hat. I won't fly without it.",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "thought id be a good idea and ran for president.",
+    "source_id": 16774,
+    "source_movie": "Forrest Gump",
+    "query_id": 40,
+    "vector_ids": [
+      3146,
+      6567,
+      5697,
+      17791,
+      3136
+    ],
+    "hybrid_ids": [
+      3146,
+      6567,
+      5697,
+      17791,
+      3136
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 212.9,
+    "hybrid_ms": 218.0,
+    "quotes": {
+      "3146": {
+        "text": "I pledged in my campaign, uh, to have...",
+        "movie": "The Dark Knight"
+      },
+      "6567": {
+        "text": "Great idea. Maybe we can get him elected senator.",
+        "movie": "12 Angry Men"
+      },
+      "5697": {
+        "text": "Just one small step for a man looking to be President of the United States",
+        "movie": "The Godfather Part II"
+      },
+      "17791": {
+        "text": "will be sworn in as president",
+        "movie": "Forrest Gump"
+      },
+      "3136": {
+        "text": "MAN 1: Mr. Mayor, you were elected in a campaign to clean up the city.",
+        "movie": "The Dark Knight"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "KUNDE: We expect a labor force of 25,000 to 30,000.",
+    "source_id": 8878,
+    "source_movie": "Schindler's List",
+    "query_id": 41,
+    "vector_ids": [
+      8889,
+      9715,
+      8748,
+      8977,
+      9576
+    ],
+    "hybrid_ids": [
+      8889,
+      9715,
+      8748,
+      8977,
+      9576
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 279.3,
+    "hybrid_ms": 281.1,
+    "quotes": {
+      "8889": {
+        "text": "KUNDE: Kindergarten. Fifty-one.",
+        "movie": "Schindler's List"
+      },
+      "9715": {
+        "text": "...die Hunderttausend Ungarn kommen...",
+        "movie": "Schindler's List"
+      },
+      "8748": {
+        "text": "OFFICER: Besen und Schaufeln werden ausgeladen",
+        "movie": "Schindler's List"
+      },
+      "8977": {
+        "text": "SOLDERS: Runterkommen!",
+        "movie": "Schindler's List"
+      },
+      "9576": {
+        "text": "fünfzehn und zwounddreißig am Appellplatz melden.",
+        "movie": "Schindler's List"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Look... I'm sorry, uh, I... I didn't get your name.",
+    "source_id": 12558,
+    "source_movie": "Pulp Fiction",
+    "query_id": 42,
+    "vector_ids": [
+      25206,
+      7739,
+      26310,
+      28749,
+      22981
+    ],
+    "hybrid_ids": [
+      25206,
+      7739,
+      26310,
+      28749,
+      22981
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 178.2,
+    "hybrid_ms": 180.7,
+    "quotes": {
+      "25206": {
+        "text": "I'm sorry, I didn't mean... I'm really very sorry. I just forgot.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "7739": {
+        "text": "Oh, I'm sorry. I, uh -",
+        "movie": "12 Angry Men"
+      },
+      "26310": {
+        "text": "Hey man, I'm sorry.",
+        "movie": "Se7en"
+      },
+      "28749": {
+        "text": "Well, I'm sorry. Hey!",
+        "movie": "It's a Wonderful Life"
+      },
+      "22981": {
+        "text": "I'm sorry, I didn't mean to offend you.",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "There's no way he'd turn himself in. It doesn't make any sense.",
+    "source_id": 26801,
+    "source_movie": "Se7en",
+    "query_id": 43,
+    "vector_ids": [
+      11900,
+      3470,
+      21995,
+      23396,
+      1834
+    ],
+    "hybrid_ids": [
+      11900,
+      3470,
+      21995,
+      23396,
+      1834
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 174.9,
+    "hybrid_ms": 178.3,
+    "quotes": {
+      "11900": {
+        "text": "He will not take the bait.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "3470": {
+        "text": "...but the Chinese won't extradite a national under any circumstances.",
+        "movie": "The Dark Knight"
+      },
+      "21995": {
+        "text": "There is no way that you're going back in.",
+        "movie": "The Matrix"
+      },
+      "23396": {
+        "text": "Even the hacks we couldn't bribe would never rat on the guys we did.",
+        "movie": "Goodfellas"
+      },
+      "1834": {
+        "text": "He won't give it to me, and he says there's no chance.",
+        "movie": "The Godfather"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Know that he suffered greatly at the hands of his host.",
+    "source_id": 11980,
+    "source_movie": "The Lord of the Rings: The Return of the King",
+    "query_id": 44,
+    "vector_ids": [
+      13701,
+      34606,
+      33358,
+      13892,
+      6236
+    ],
+    "hybrid_ids": [
+      13701,
+      34606,
+      33358,
+      13892,
+      6236
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 245.9,
+    "hybrid_ms": 248.6,
+    "quotes": {
+      "13701": {
+        "text": "Do you have any idea what he had to go through...",
+        "movie": "Pulp Fiction"
+      },
+      "34606": {
+        "text": "that he'd lost his home.",
+        "movie": "Spirited Away"
+      },
+      "33358": {
+        "text": "Unforgivable. And he knew that.",
+        "movie": "Interstellar"
+      },
+      "13892": {
+        "text": "The Rest Of His Short-Ass Life In Agonizing Pain...",
+        "movie": "Pulp Fiction"
+      },
+      "6236": {
+        "text": "He came at his own expense to aid his brother.",
+        "movie": "The Godfather Part II"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "So I asked my brother to watch the sauce, and Karen and I started out.",
+    "source_id": 23907,
+    "source_movie": "Goodfellas",
+    "query_id": 45,
+    "vector_ids": [
+      23959,
+      6261,
+      22718,
+      16391,
+      14086
+    ],
+    "hybrid_ids": [
+      23959,
+      6261,
+      22718,
+      16391,
+      14086
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 194.2,
+    "hybrid_ms": 198.3,
+    "quotes": {
+      "23959": {
+        "text": "I told my brother to watch the stove.",
+        "movie": "Goodfellas"
+      },
+      "6261": {
+        "text": "It was between the brothers, Kay. I had nothing to do with it.",
+        "movie": "The Godfather Part II"
+      },
+      "22718": {
+        "text": "I said, \"Try the kitchen.\"",
+        "movie": "Goodfellas"
+      },
+      "16391": {
+        "text": "I would have followed you, my brother.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "14086": {
+        "text": "You watched me wash them.",
+        "movie": "Pulp Fiction"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Georgie, have you gone crazy? Why, walk in the grass in my bare feet?",
+    "source_id": 29125,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 46,
+    "vector_ids": [
+      28431,
+      30443,
+      28875,
+      29113,
+      29116
+    ],
+    "hybrid_ids": [
+      28431,
+      30443,
+      28875,
+      29113,
+      29116
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 170.3,
+    "hybrid_ms": 173.8,
+    "quotes": {
+      "28431": {
+        "text": "Please, Georgie.",
+        "movie": "It's a Wonderful Life"
+      },
+      "30443": {
+        "text": "George, darling. Where have you been?",
+        "movie": "It's a Wonderful Life"
+      },
+      "28875": {
+        "text": "George, come on home! Quick!",
+        "movie": "It's a Wonderful Life"
+      },
+      "29113": {
+        "text": "Georgie, don't you ever get tired of just reading about things?",
+        "movie": "It's a Wonderful Life"
+      },
+      "29116": {
+        "text": "I'd love it, Georgie. What'll we do?",
+        "movie": "It's a Wonderful Life"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Lois, do you understand what we are involved in here?",
+    "source_id": 23982,
+    "source_movie": "Goodfellas",
+    "query_id": 47,
+    "vector_ids": [
+      19927,
+      25290,
+      33790,
+      31328,
+      11932
+    ],
+    "hybrid_ids": [
+      19927,
+      25290,
+      33790,
+      31328,
+      11932
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 194.4,
+    "hybrid_ms": 196.7,
+    "quotes": {
+      "19927": {
+        "text": "What are we doing?",
+        "movie": "Fight Club"
+      },
+      "25290": {
+        "text": "What are we doing in here, Chief? Huh?",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "33790": {
+        "text": "What are we here to do?",
+        "movie": "Interstellar"
+      },
+      "31328": {
+        "text": "How we doing here?",
+        "movie": "Saving Private Ryan"
+      },
+      "11932": {
+        "text": "What do I do? What do we do?",
+        "movie": "The Lord of the Rings: The Return of the King"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "They can't find a specific place in time. They can't communicate.",
+    "source_id": 33785,
+    "source_movie": "Interstellar",
+    "query_id": 48,
+    "vector_ids": [
+      22891,
+      903,
+      30244,
+      9895,
+      33460
+    ],
+    "hybrid_ids": [
+      22891,
+      903,
+      30244,
+      9895,
+      33460
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 199.9,
+    "hybrid_ms": 201.3,
+    "quotes": {
+      "22891": {
+        "text": "They don't have things organized.",
+        "movie": "Goodfellas"
+      },
+      "903": {
+        "text": "they can't touch.",
+        "movie": "The Shawshank Redemption"
+      },
+      "30244": {
+        "text": "They're not there, either.",
+        "movie": "It's a Wonderful Life"
+      },
+      "9895": {
+        "text": "There's no future in it. They don't have a future.",
+        "movie": "Schindler's List"
+      },
+      "33460": {
+        "text": "It's bad. They cannot stay here.",
+        "movie": "Interstellar"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "He claims that he went to a movie at about 11:30...",
+    "source_id": 7024,
+    "source_movie": "12 Angry Men",
+    "query_id": 49,
+    "vector_ids": [
+      7996,
+      7418,
+      8000,
+      7017,
+      7811
+    ],
+    "hybrid_ids": [
+      7996,
+      7418,
+      8000,
+      7017,
+      7811
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 464.0,
+    "hybrid_ms": 465.7,
+    "quotes": {
+      "7996": {
+        "text": "She said she went to bed about 11:00 that night.",
+        "movie": "12 Angry Men"
+      },
+      "7418": {
+        "text": "Now, this happened at 10 minutes after 12:00.",
+        "movie": "12 Angry Men"
+      },
+      "8000": {
+        "text": "Finally, she turned toward the window at about 10 minutes after 12:00...",
+        "movie": "12 Angry Men"
+      },
+      "7017": {
+        "text": "He talked with his friends for about an hour, leaving them at 9:45.",
+        "movie": "12 Angry Men"
+      },
+      "7811": {
+        "text": "Monday night, uh, my wife and I went to the movies.",
+        "movie": "12 Angry Men"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Either you choose to be at your desk on time from this day forth...",
+    "source_id": 21063,
+    "source_movie": "The Matrix",
+    "query_id": 50,
+    "vector_ids": [
+      21064,
+      10880,
+      8600,
+      16403,
+      21155
+    ],
+    "hybrid_ids": [
+      21064,
+      10880,
+      8600,
+      16403,
+      21155
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 241.3,
+    "hybrid_ms": 242.7,
+    "quotes": {
+      "21064": {
+        "text": "...or you choose to find another job.",
+        "movie": "The Matrix"
+      },
+      "10880": {
+        "text": "Whether by your will or not...",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "8600": {
+        "text": "You have to choose.",
+        "movie": "Schindler's List"
+      },
+      "16403": {
+        "text": "All you have to decide...",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "21155": {
+        "text": "...whether you want to or not.",
+        "movie": "The Matrix"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "...and the doctors could keep me here till you're good and ready to turn me loose.",
+    "source_id": 25131,
+    "source_movie": "One Flew Over the Cuckoo's Nest",
+    "query_id": 51,
+    "vector_ids": [
+      30304,
+      25136,
+      25066,
+      24348,
+      23877
+    ],
+    "hybrid_ids": [
+      30304,
+      25136,
+      25066,
+      24348,
+      23877
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 148.5,
+    "hybrid_ms": 149.8,
+    "quotes": {
+      "30304": {
+        "text": "and we'll take you in to a doctor?",
+        "movie": "It's a Wonderful Life"
+      },
+      "25136": {
+        "text": "You let me go on hassling Nurse Ratched here...",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "25066": {
+        "text": "So I'd like to keep him on the ward.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "24348": {
+        "text": "...and give you the necessary treatment, uh...",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "23877": {
+        "text": "When I finally got to the hospital, Michael's doctor wanted to put me in bed.",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "out of a four-story window for giving me a foot massage?",
+    "source_id": 13013,
+    "source_movie": "Pulp Fiction",
+    "query_id": 52,
+    "vector_ids": [
+      13010,
+      26941,
+      27773,
+      16809,
+      22665
+    ],
+    "hybrid_ids": [
+      13010,
+      26941,
+      27773,
+      16809,
+      22665
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 241.1,
+    "hybrid_ms": 242.7,
+    "quotes": {
+      "13010": {
+        "text": "They just said that Antwan had given you a foot massage.",
+        "movie": "Pulp Fiction"
+      },
+      "26941": {
+        "text": "- hurt me with impunity? - That hurts my feelings.",
+        "movie": "Se7en"
+      },
+      "27773": {
+        "text": "Did he sodomize you?",
+        "movie": "The Silence of the Lambs"
+      },
+      "16809": {
+        "text": "Forrest, why'd you do that?",
+        "movie": "Forrest Gump"
+      },
+      "22665": {
+        "text": "You got some nerve standing me up.",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "...or you live long enough to see yourself become the villain.",
+    "source_id": 3373,
+    "source_movie": "The Dark Knight",
+    "query_id": 53,
+    "vector_ids": [
+      5023,
+      6138,
+      22074,
+      23091,
+      26701
+    ],
+    "hybrid_ids": [
+      5023,
+      6138,
+      22074,
+      23091,
+      26701
+    ],
+    "keyword_hits": 1,
+    "vector_ms": 175.9,
+    "hybrid_ms": 178.0,
+    "quotes": {
+      "5023": {
+        "text": "...or you live long enough to see yourself become the villain.",
+        "movie": "The Dark Knight"
+      },
+      "6138": {
+        "text": "You'll live like a king. You'll be a hero.",
+        "movie": "The Godfather Part II"
+      },
+      "22074": {
+        "text": "...or you're going to die.",
+        "movie": "The Matrix"
+      },
+      "23091": {
+        "text": "or you'd be the one who got whacked.",
+        "movie": "Goodfellas"
+      },
+      "26701": {
+        "text": "But you got to be a hero.",
+        "movie": "Se7en"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "were local cops busting my balls over Lufthansa. They turned out to be narcs.",
+    "source_id": 24001,
+    "source_movie": "Goodfellas",
+    "query_id": 54,
+    "vector_ids": [
+      3295,
+      24031,
+      25898,
+      1646,
+      4773
+    ],
+    "hybrid_ids": [
+      3295,
+      24031,
+      25898,
+      1646,
+      4773
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 240.9,
+    "hybrid_ms": 242.4,
+    "quotes": {
+      "3295": {
+        "text": "...and it's full of cops I investigated at Internal Affairs.",
+        "movie": "The Dark Knight"
+      },
+      "24031": {
+        "text": "the cops never found, then disappear until I can get things straightened out.",
+        "movie": "Goodfellas"
+      },
+      "25898": {
+        "text": "I just met with law enforcement officials and they...",
+        "movie": "Se7en"
+      },
+      "1646": {
+        "text": "I went to the police, like a good American.",
+        "movie": "The Godfather"
+      },
+      "4773": {
+        "text": "Those cops can 't be trusted.",
+        "movie": "The Dark Knight"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Your oldest boy was picked up in Reno for a theft you don't even know about.",
+    "source_id": 5242,
+    "source_movie": "The Godfather Part II",
+    "query_id": 55,
+    "vector_ids": [
+      7786,
+      1064,
+      7419,
+      7421,
+      24031
+    ],
+    "hybrid_ids": [
+      7786,
+      1064,
+      7419,
+      7421,
+      24031
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 177.5,
+    "hybrid_ms": 179.5,
+    "quotes": {
+      "7786": {
+        "text": "the boy was questioned by the detectives in the kitchen of his apartment...",
+        "movie": "12 Angry Men"
+      },
+      "1064": {
+        "text": "The cops caught him sneaking TV sets out the back door of a JC Penney.",
+        "movie": "The Shawshank Redemption"
+      },
+      "7419": {
+        "text": "Now, how was he caught by the police?",
+        "movie": "12 Angry Men"
+      },
+      "7421": {
+        "text": "and he was captured by two detectives in the hallway of his house.",
+        "movie": "12 Angry Men"
+      },
+      "24031": {
+        "text": "the cops never found, then disappear until I can get things straightened out.",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Listen, Forrest, I don't know how to say this. Um...",
+    "source_id": 18251,
+    "source_movie": "Forrest Gump",
+    "query_id": 56,
+    "vector_ids": [
+      18396,
+      17560,
+      17034,
+      17527,
+      17051
+    ],
+    "hybrid_ids": [
+      18396,
+      17560,
+      17034,
+      17527,
+      17051
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 261.8,
+    "hybrid_ms": 263.3,
+    "quotes": {
+      "18396": {
+        "text": "Hey, Forrest... don't...",
+        "movie": "Forrest Gump"
+      },
+      "17560": {
+        "text": "Forrest, I can't keep this.",
+        "movie": "Forrest Gump"
+      },
+      "17034": {
+        "text": "You can't keep doing this, Forrest.",
+        "movie": "Forrest Gump"
+      },
+      "17527": {
+        "text": "I know you wouldn't, Forrest.",
+        "movie": "Forrest Gump"
+      },
+      "17051": {
+        "text": "Forrest, you stay away from me, O. K?",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "I want to be in a federal institution far away from Dr. Chilton.",
+    "source_id": 27459,
+    "source_movie": "The Silence of the Lambs",
+    "query_id": 57,
+    "vector_ids": [
+      27177,
+      28004,
+      27894,
+      27892,
+      27193
+    ],
+    "hybrid_ids": [
+      27177,
+      28004,
+      27894,
+      27892,
+      27193
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 167.0,
+    "hybrid_ms": 168.6,
+    "quotes": {
+      "27177": {
+        "text": "Dr. Chilton at the asylum",
+        "movie": "The Silence of the Lambs"
+      },
+      "28004": {
+        "text": "Dr. Chilton, I presume.",
+        "movie": "The Silence of the Lambs"
+      },
+      "27894": {
+        "text": "-Are you with Dr. Chilton's group? -Oh, well, I just saw him outside, sir.",
+        "movie": "The Silence of the Lambs"
+      },
+      "27892": {
+        "text": "-Can you give us any more information? -My name is Dr. Frederick Chilton.",
+        "movie": "The Silence of the Lambs"
+      },
+      "27193": {
+        "text": "Well, I'm sure this is a great town, Dr. Chilton,",
+        "movie": "The Silence of the Lambs"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "All I did was give your uncle a little nudge out of the door.",
+    "source_id": 14916,
+    "source_movie": "The Lord of the Rings: The Fellowship of the Ring",
+    "query_id": 58,
+    "vector_ids": [
+      21700,
+      22998,
+      3014,
+      2869,
+      6179
+    ],
+    "hybrid_ids": [
+      21700,
+      22998,
+      3014,
+      2869,
+      6179
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 116.7,
+    "hybrid_ms": 118.4,
+    "quotes": {
+      "21700": {
+        "text": "I told you I can only show you the door.",
+        "movie": "The Matrix"
+      },
+      "22998": {
+        "text": "- I didn't. - You insulted him a little.",
+        "movie": "Goodfellas"
+      },
+      "3014": {
+        "text": "That little farce you played with my sister.",
+        "movie": "The Godfather"
+      },
+      "2869": {
+        "text": "You straightened my brother out?",
+        "movie": "The Godfather"
+      },
+      "6179": {
+        "text": "I'm your older brother, but was stepped over!",
+        "movie": "The Godfather Part II"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "- But just don't make too much noise. - Not a peep, not a peep. Peep.",
+    "source_id": 25431,
+    "source_movie": "One Flew Over the Cuckoo's Nest",
+    "query_id": 59,
+    "vector_ids": [
+      14538,
+      24239,
+      18203,
+      7457,
+      22299
+    ],
+    "hybrid_ids": [
+      14538,
+      24239,
+      18203,
+      7457,
+      22299
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 157.6,
+    "hybrid_ms": 159.1,
+    "quotes": {
+      "14538": {
+        "text": "You just be quiet!",
+        "movie": "Pulp Fiction"
+      },
+      "24239": {
+        "text": "Can't even make a sound, huh?",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "18203": {
+        "text": "Quiet. Quiet. He's going to say something.",
+        "movie": "Forrest Gump"
+      },
+      "7457": {
+        "text": "Perhaps it wasn't very loud.",
+        "movie": "12 Angry Men"
+      },
+      "22299": {
+        "text": "He didn't want anybody hearing what he said...",
+        "movie": "Goodfellas"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "We didn't run out of television screens and planes. We ran out of food.",
+    "source_id": 32273,
+    "source_movie": "Interstellar",
+    "query_id": 60,
+    "vector_ids": [
+      33864,
+      32156,
+      10511,
+      34438,
+      32157
+    ],
+    "hybrid_ids": [
+      33864,
+      32156,
+      10511,
+      34438,
+      32157
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 171.7,
+    "hybrid_ms": 173.4,
+    "quotes": {
+      "33864": {
+        "text": "There just wasn't enough food.",
+        "movie": "Interstellar"
+      },
+      "32156": {
+        "text": "And we still had corn. We had acres of corn.",
+        "movie": "Interstellar"
+      },
+      "10511": {
+        "text": "And we forgot the taste of bread...",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "34438": {
+        "text": "Starved, in fact.",
+        "movie": "Spirited Away"
+      },
+      "32157": {
+        "text": "But... mostly we had dust.",
+        "movie": "Interstellar"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "The time has come to make a choice, Mr. Anderson.",
+    "source_id": 21062,
+    "source_movie": "The Matrix",
+    "query_id": 61,
+    "vector_ids": [
+      25501,
+      8462,
+      21605,
+      24836,
+      25183
+    ],
+    "hybrid_ids": [
+      25501,
+      8462,
+      21605,
+      24836,
+      25183
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 203.2,
+    "hybrid_ms": 204.6,
+    "quotes": {
+      "25501": {
+        "text": "Well, Dale, Lord Randall is stepping down one.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "8462": {
+        "text": "STERN: He's a very important man. Just give him two minutes of your time.",
+        "movie": "Schindler's List"
+      },
+      "21605": {
+        "text": "Do we have a deal, Mr. Reagan?",
+        "movie": "The Matrix"
+      },
+      "24836": {
+        "text": "The Chief voted. Now, will you please turn the television set on?",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "25183": {
+        "text": "Remember, Mr. Scanlon, we've discussed many times...",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "-Do you want to try it out on the lake? -Okay.",
+    "source_id": 6401,
+    "source_movie": "The Godfather Part II",
+    "query_id": 62,
+    "vector_ids": [
+      32229,
+      24929,
+      27478,
+      13832,
+      17854
+    ],
+    "hybrid_ids": [
+      32229,
+      24929,
+      27478,
+      13832,
+      17854
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 239.5,
+    "hybrid_ms": 241.0,
+    "quotes": {
+      "32229": {
+        "text": "Want to give it a whirl?",
+        "movie": "Interstellar"
+      },
+      "24929": {
+        "text": "- What are you doing on this boat? - We're going fishing.",
+        "movie": "One Flew Over the Cuckoo's Nest"
+      },
+      "27478": {
+        "text": "-Would you? -Sure.",
+        "movie": "The Silence of the Lambs"
+      },
+      "13832": {
+        "text": "You want to do it in here?",
+        "movie": "Pulp Fiction"
+      },
+      "17854": {
+        "text": "Hey, you ever think about naming this old boat?",
+        "movie": "Forrest Gump"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "That tall drink of water with the silver spoon up his ass.",
+    "source_id": 138,
+    "source_movie": "The Shawshank Redemption",
+    "query_id": 63,
+    "vector_ids": [
+      27307,
+      1178,
+      7744,
+      11256,
+      3898
+    ],
+    "hybrid_ids": [
+      27307,
+      1178,
+      7744,
+      11256,
+      3898
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 183.2,
+    "hybrid_ms": 184.9,
+    "quotes": {
+      "27307": {
+        "text": "A well-scrubbed, hustling rube with a little taste.",
+        "movie": "The Silence of the Lambs"
+      },
+      "1178": {
+        "text": "Him and this tasty bitch he was with.",
+        "movie": "The Shawshank Redemption"
+      },
+      "7744": {
+        "text": "Say, that business before, when that tall guy - what's-his-name -",
+        "movie": "12 Angry Men"
+      },
+      "11256": {
+        "text": "I seen him. He's always stuffing his face when master's not looking.",
+        "movie": "The Lord of the Rings: The Return of the King"
+      },
+      "3898": {
+        "text": "One of the wealthiest, most powerful men in the world...",
+        "movie": "The Dark Knight"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "Wait a minute, I thought all you did was kill innocent people.",
+    "source_id": 26948,
+    "source_movie": "Se7en",
+    "query_id": 64,
+    "vector_ids": [
+      5957,
+      525,
+      21858,
+      4413,
+      1165
+    ],
+    "hybrid_ids": [
+      5957,
+      525,
+      21858,
+      4413,
+      1165
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 216.1,
+    "hybrid_ms": 218.3,
+    "quotes": {
+      "5957": {
+        "text": "-You mean you kill people? -What?",
+        "movie": "The Godfather Part II"
+      },
+      "525": {
+        "text": "Murder. Same as you. Innocent?",
+        "movie": "The Shawshank Redemption"
+      },
+      "21858": {
+        "text": "You killed them.",
+        "movie": "The Matrix"
+      },
+      "4413": {
+        "text": "Didn't you think there might be casualties?",
+        "movie": "The Dark Knight"
+      },
+      "1165": {
+        "text": "Even people he'd killed.",
+        "movie": "The Shawshank Redemption"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "He just comes in like he's picking up lost baggage.",
+    "source_id": 22468,
+    "source_movie": "Goodfellas",
+    "query_id": 65,
+    "vector_ids": [
+      29387,
+      28919,
+      8718,
+      15102,
+      14092
+    ],
+    "hybrid_ids": [
+      29387,
+      28919,
+      8718,
+      15102,
+      14092
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 283.1,
+    "hybrid_ms": 284.9,
+    "quotes": {
+      "29387": {
+        "text": "He's picking up some bargain.",
+        "movie": "It's a Wonderful Life"
+      },
+      "28919": {
+        "text": "But he comes here,",
+        "movie": "It's a Wonderful Life"
+      },
+      "8718": {
+        "text": "Every day he comes. He's very grateful. It'll just take a minute.",
+        "movie": "Schindler's List"
+      },
+      "15102": {
+        "text": "Along with all his possessions.",
+        "movie": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      "14092": {
+        "text": "What if he was to come in here and see his towel like this?",
+        "movie": "Pulp Fiction"
+      }
+    }
+  },
+  {
+    "type": "long",
+    "query": "He called me an idiot, so I yelled at him.",
+    "source_id": 7374,
+    "source_movie": "12 Angry Men",
+    "query_id": 66,
+    "vector_ids": [
+      16904,
+      2868,
+      13612,
+      2527,
+      31146
+    ],
+    "hybrid_ids": [
+      16904,
+      2868,
+      13612,
+      2527,
+      31146
+    ],
+    "keyword_hits": 0,
+    "vector_ms": 223.8,
+    "hybrid_ms": 225.1,
+    "quotes": {
+      "16904": {
+        "text": "and I was getting yelled at.",
+        "movie": "Forrest Gump"
+      },
+      "2868": {
+        "text": "We had an argument, so I had to straighten him out.",
+        "movie": "The Godfather"
+      },
+      "13612": {
+        "text": "I called you a retard, and I took it back. Uhh. Butch?",
+        "movie": "Pulp Fiction"
+      },
+      "2527": {
+        "text": "I started a fight with him. I hit him, so he hit me...",
+        "movie": "The Godfather"
+      },
+      "31146": {
+        "text": "Told you he was an asshole.",
+        "movie": "Saving Private Ryan"
+      }
+    }
+  }
+]

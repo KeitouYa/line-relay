@@ -1,0 +1,75 @@
+{
+  "config": {
+    "base_url": "http://localhost:8100",
+    "redis_url": "redis://redis:6379/15",
+    "global_limit": 10,
+    "ip_limit": 3,
+    "freq_seconds": 30
+  },
+  "results": [
+    {
+      "requests": 20,
+      "scenario": "same_ip",
+      "ok_200": 1,
+      "rejected_429": 19,
+      "other_status": {},
+      "expected_200": 1,
+      "expected_429": 19,
+      "limit_correct": true,
+      "reject_reasons": {
+        "rate_limit_exceeded": 19
+      },
+      "redis_global_count": 1,
+      "redis_ip_count_sum": 1,
+      "counter_equals_successes": true
+    },
+    {
+      "requests": 20,
+      "scenario": "distinct_ip",
+      "ok_200": 10,
+      "rejected_429": 10,
+      "other_status": {},
+      "expected_200": 10,
+      "expected_429": 10,
+      "limit_correct": true,
+      "reject_reasons": {
+        "daily_limit_exceeded": 10
+      },
+      "redis_global_count": 10,
+      "redis_ip_count_sum": 10,
+      "counter_equals_successes": true
+    },
+    {
+      "requests": 50,
+      "scenario": "same_ip",
+      "ok_200": 1,
+      "rejected_429": 49,
+      "other_status": {},
+      "expected_200": 1,
+      "expected_429": 49,
+      "limit_correct": true,
+      "reject_reasons": {
+        "rate_limit_exceeded": 49
+      },
+      "redis_global_count": 1,
+      "redis_ip_count_sum": 1,
+      "counter_equals_successes": true
+    },
+    {
+      "requests": 50,
+      "scenario": "distinct_ip",
+      "ok_200": 10,
+      "rejected_429": 40,
+      "other_status": {},
+      "expected_200": 10,
+      "expected_429": 40,
+      "limit_correct": true,
+      "reject_reasons": {
+        "daily_limit_exceeded": 40
+      },
+      "redis_global_count": 10,
+      "redis_ip_count_sum": 10,
+      "counter_equals_successes": true
+    }
+  ]
+}

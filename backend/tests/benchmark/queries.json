@@ -1,0 +1,464 @@
+[
+  {
+    "type": "user",
+    "query": "I love you",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 1
+  },
+  {
+    "type": "user",
+    "query": "You shall not pass",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 2
+  },
+  {
+    "type": "user",
+    "query": "Why so serious?",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 3
+  },
+  {
+    "type": "user",
+    "query": "To be or not to be",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 4
+  },
+  {
+    "type": "user",
+    "query": "Run, Forrest, run",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 5
+  },
+  {
+    "type": "user",
+    "query": "I love you!",
+    "source_id": null,
+    "source_movie": null,
+    "query_id": 6
+  },
+  {
+    "type": "short",
+    "query": "Old, too old. Fat, too fat.",
+    "source_id": 20074,
+    "source_movie": "Fight Club",
+    "query_id": 7
+  },
+  {
+    "type": "short",
+    "query": "Yeah. I guess so.",
+    "source_id": 18829,
+    "source_movie": "Fight Club",
+    "query_id": 8
+  },
+  {
+    "type": "short",
+    "query": "WOMAN 3: Good night. Sweet dreams.",
+    "source_id": 9700,
+    "source_movie": "Schindler's List",
+    "query_id": 9
+  },
+  {
+    "type": "short",
+    "query": "he declared their case hopeless.",
+    "source_id": 33363,
+    "source_movie": "Interstellar",
+    "query_id": 10
+  },
+  {
+    "type": "short",
+    "query": "It was the precious.",
+    "source_id": 11610,
+    "source_movie": "The Lord of the Rings: The Return of the King",
+    "query_id": 11
+  },
+  {
+    "type": "short",
+    "query": "I squashed it.",
+    "source_id": 34761,
+    "source_movie": "Spirited Away",
+    "query_id": 12
+  },
+  {
+    "type": "short",
+    "query": "You're late. Yes, sir.",
+    "source_id": 28423,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 13
+  },
+  {
+    "type": "short",
+    "query": "You'll find the boiler room where...",
+    "source_id": 34079,
+    "source_movie": "Spirited Away",
+    "query_id": 14
+  },
+  {
+    "type": "short",
+    "query": "There won't be any fireworks.",
+    "source_id": 4897,
+    "source_movie": "The Dark Knight",
+    "query_id": 15
+  },
+  {
+    "type": "short",
+    "query": "Private Gump here",
+    "source_id": 17684,
+    "source_movie": "Forrest Gump",
+    "query_id": 16
+  },
+  {
+    "type": "short",
+    "query": "The smell of dried blood,",
+    "source_id": 20435,
+    "source_movie": "Fight Club",
+    "query_id": 17
+  },
+  {
+    "type": "short",
+    "query": "Teaching him how to play Ping-Pong.",
+    "source_id": 18363,
+    "source_movie": "Forrest Gump",
+    "query_id": 18
+  },
+  {
+    "type": "short",
+    "query": "Here he is, Forrest Gump.",
+    "source_id": 17591,
+    "source_movie": "Forrest Gump",
+    "query_id": 19
+  },
+  {
+    "type": "short",
+    "query": "Forrest Gump. Yes, sir!",
+    "source_id": 17793,
+    "source_movie": "Forrest Gump",
+    "query_id": 20
+  },
+  {
+    "type": "short",
+    "query": "Now... you listen to me.",
+    "source_id": 17382,
+    "source_movie": "Forrest Gump",
+    "query_id": 21
+  },
+  {
+    "type": "short",
+    "query": "\"Why are you beating me?\"",
+    "source_id": 9491,
+    "source_movie": "Schindler's List",
+    "query_id": 22
+  },
+  {
+    "type": "short",
+    "query": "I'm in trouble, Mr. Potter.",
+    "source_id": 29945,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 23
+  },
+  {
+    "type": "short",
+    "query": "Maybe it's because I'm Irish.",
+    "source_id": 363,
+    "source_movie": "The Shawshank Redemption",
+    "query_id": 24
+  },
+  {
+    "type": "short",
+    "query": "How about you?",
+    "source_id": 8006,
+    "source_movie": "12 Angry Men",
+    "query_id": 25
+  },
+  {
+    "type": "short",
+    "query": "Oh, yes. Thank you.",
+    "source_id": 12223,
+    "source_movie": "Pulp Fiction",
+    "query_id": 26
+  },
+  {
+    "type": "short",
+    "query": "Two clicks, left wind.",
+    "source_id": 31074,
+    "source_movie": "Saving Private Ryan",
+    "query_id": 27
+  },
+  {
+    "type": "short",
+    "query": "this guy going out a lot...",
+    "source_id": 26556,
+    "source_movie": "Se7en",
+    "query_id": 28
+  },
+  {
+    "type": "short",
+    "query": "Yeah, we happy. Pbbbt.",
+    "source_id": 12557,
+    "source_movie": "Pulp Fiction",
+    "query_id": 29
+  },
+  {
+    "type": "short",
+    "query": "This won't have a happy ending.",
+    "source_id": 26690,
+    "source_movie": "Se7en",
+    "query_id": 30
+  },
+  {
+    "type": "short",
+    "query": "You cannot pass! Gandalf!",
+    "source_id": 16034,
+    "source_movie": "The Lord of the Rings: The Fellowship of the Ring",
+    "query_id": 31
+  },
+  {
+    "type": "short",
+    "query": "Give me the Ring.",
+    "source_id": 11860,
+    "source_movie": "The Lord of the Rings: The Return of the King",
+    "query_id": 32
+  },
+  {
+    "type": "short",
+    "query": "I'm still thinking.",
+    "source_id": 28429,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 33
+  },
+  {
+    "type": "short",
+    "query": "Repeat. Lecter is missing and armed.",
+    "source_id": 28056,
+    "source_movie": "The Silence of the Lambs",
+    "query_id": 34
+  },
+  {
+    "type": "short",
+    "query": "And she knows what? Everything?",
+    "source_id": 21691,
+    "source_movie": "The Matrix",
+    "query_id": 35
+  },
+  {
+    "type": "short",
+    "query": "Rommel knows that,",
+    "source_id": 31488,
+    "source_movie": "Saving Private Ryan",
+    "query_id": 36
+  },
+  {
+    "type": "long",
+    "query": "Why do you come to me? Why do I deserve this generosity?",
+    "source_id": 1970,
+    "source_movie": "The Godfather",
+    "query_id": 37
+  },
+  {
+    "type": "long",
+    "query": "Did Billy Bibbit leave the grounds of the hospital, gentlemen?",
+    "source_id": 25593,
+    "source_movie": "One Flew Over the Cuckoo's Nest",
+    "query_id": 38
+  },
+  {
+    "type": "long",
+    "query": "Get me back. I don't care what happens to me.",
+    "source_id": 30390,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 39
+  },
+  {
+    "type": "long",
+    "query": "thought id be a good idea and ran for president.",
+    "source_id": 16774,
+    "source_movie": "Forrest Gump",
+    "query_id": 40
+  },
+  {
+    "type": "long",
+    "query": "KUNDE: We expect a labor force of 25,000 to 30,000.",
+    "source_id": 8878,
+    "source_movie": "Schindler's List",
+    "query_id": 41
+  },
+  {
+    "type": "long",
+    "query": "Look... I'm sorry, uh, I... I didn't get your name.",
+    "source_id": 12558,
+    "source_movie": "Pulp Fiction",
+    "query_id": 42
+  },
+  {
+    "type": "long",
+    "query": "There's no way he'd turn himself in. It doesn't make any sense.",
+    "source_id": 26801,
+    "source_movie": "Se7en",
+    "query_id": 43
+  },
+  {
+    "type": "long",
+    "query": "Know that he suffered greatly at the hands of his host.",
+    "source_id": 11980,
+    "source_movie": "The Lord of the Rings: The Return of the King",
+    "query_id": 44
+  },
+  {
+    "type": "long",
+    "query": "So I asked my brother to watch the sauce, and Karen and I started out.",
+    "source_id": 23907,
+    "source_movie": "Goodfellas",
+    "query_id": 45
+  },
+  {
+    "type": "long",
+    "query": "Georgie, have you gone crazy? Why, walk in the grass in my bare feet?",
+    "source_id": 29125,
+    "source_movie": "It's a Wonderful Life",
+    "query_id": 46
+  },
+  {
+    "type": "long",
+    "query": "Lois, do you understand what we are involved in here?",
+    "source_id": 23982,
+    "source_movie": "Goodfellas",
+    "query_id": 47
+  },
+  {
+    "type": "long",
+    "query": "They can't find a specific place in time. They can't communicate.",
+    "source_id": 33785,
+    "source_movie": "Interstellar",
+    "query_id": 48
+  },
+  {
+    "type": "long",
+    "query": "He claims that he went to a movie at about 11:30...",
+    "source_id": 7024,
+    "source_movie": "12 Angry Men",
+    "query_id": 49
+  },
+  {
+    "type": "long",
+    "query": "Either you choose to be at your desk on time from this day forth...",
+    "source_id": 21063,
+    "source_movie": "The Matrix",
+    "query_id": 50
+  },
+  {
+    "type": "long",
+    "query": "...and the doctors could keep me here till you're good and ready to turn me loose.",
+    "source_id": 25131,
+    "source_movie": "One Flew Over the Cuckoo's Nest",
+    "query_id": 51
+  },
+  {
+    "type": "long",
+    "query": "out of a four-story window for giving me a foot massage?",
+    "source_id": 13013,
+    "source_movie": "Pulp Fiction",
+    "query_id": 52
+  },
+  {
+    "type": "long",
+    "query": "...or you live long enough to see yourself become the villain.",
+    "source_id": 3373,
+    "source_movie": "The Dark Knight",
+    "query_id": 53
+  },
+  {
+    "type": "long",
+    "query": "were local cops busting my balls over Lufthansa. They turned out to be narcs.",
+    "source_id": 24001,
+    "source_movie": "Goodfellas",
+    "query_id": 54
+  },
+  {
+    "type": "long",
+    "query": "Your oldest boy was picked up in Reno for a theft you don't even know about.",
+    "source_id": 5242,
+    "source_movie": "The Godfather Part II",
+    "query_id": 55
+  },
+  {
+    "type": "long",
+    "query": "Listen, Forrest, I don't know how to say this. Um...",
+    "source_id": 18251,
+    "source_movie": "Forrest Gump",
+    "query_id": 56
+  },
+  {
+    "type": "long",
+    "query": "I want to be in a federal institution far away from Dr. Chilton.",
+    "source_id": 27459,
+    "source_movie": "The Silence of the Lambs",
+    "query_id": 57
+  },
+  {
+    "type": "long",
+    "query": "All I did was give your uncle a little nudge out of the door.",
+    "source_id": 14916,
+    "source_movie": "The Lord of the Rings: The Fellowship of the Ring",
+    "query_id": 58
+  },
+  {
+    "type": "long",
+    "query": "- But just don't make too much noise. - Not a peep, not a peep. Peep.",
+    "source_id": 25431,
+    "source_movie": "One Flew Over the Cuckoo's Nest",
+    "query_id": 59
+  },
+  {
+    "type": "long",
+    "query": "We didn't run out of television screens and planes. We ran out of food.",
+    "source_id": 32273,
+    "source_movie": "Interstellar",
+    "query_id": 60
+  },
+  {
+    "type": "long",
+    "query": "The time has come to make a choice, Mr. Anderson.",
+    "source_id": 21062,
+    "source_movie": "The Matrix",
+    "query_id": 61
+  },
+  {
+    "type": "long",
+    "query": "-Do you want to try it out on the lake? -Okay.",
+    "source_id": 6401,
+    "source_movie": "The Godfather Part II",
+    "query_id": 62
+  },
+  {
+    "type": "long",
+    "query": "That tall drink of water with the silver spoon up his ass.",
+    "source_id": 138,
+    "source_movie": "The Shawshank Redemption",
+    "query_id": 63
+  },
+  {
+    "type": "long",
+    "query": "Wait a minute, I thought all you did was kill innocent people.",
+    "source_id": 26948,
+    "source_movie": "Se7en",
+    "query_id": 64
+  },
+  {
+    "type": "long",
+    "query": "He just comes in like he's picking up lost baggage.",
+    "source_id": 22468,
+    "source_movie": "Goodfellas",
+    "query_id": 65
+  },
+  {
+    "type": "long",
+    "query": "He called me an idiot, so I yelled at him.",
+    "source_id": 7374,
+    "source_movie": "12 Angry Men",
+    "query_id": 66
+  }
+]
